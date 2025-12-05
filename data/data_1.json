@@ -1,0 +1,1422 @@
+{
+  "Id": 1,
+  "Name": "5P1D3R",
+  "Type": "Robot",
+  "Properties": {
+    "Description": null,
+    "AttackRange": null,
+    "AggressionRange": null,
+    "IsSweatable": false
+  },
+  "DefensiveProfession": {
+    "Name": "Evader",
+    "Links": {
+      "$Url": "/professions/42"
+    }
+  },
+  "ScanningProfession": {
+    "Name": "Robot Investigator",
+    "Links": {
+      "$Url": "/professions/59"
+    }
+  },
+  "Planet": {
+    "Name": "Cyrene",
+    "Links": {
+      "$Url": "/planets/7"
+    }
+  },
+  "Species": {
+    "Name": "5P1D3R",
+    "Properties": {
+      "CodexBaseCost": 125,
+      "CodexType": "Mob"
+    },
+    "Links": {
+      "$Url": "/mobspecies/140"
+    }
+  },
+  "Maturities": [
+    {
+      "Id": 1,
+      "Name": "Generation I",
+      "Properties": {
+        "Description": null,
+        "Health": 1000,
+        "AttacksPerMinute": null,
+        "Level": 9,
+        "RegenerationInterval": null,
+        "RegenerationAmount": null,
+        "MissChance": null,
+        "Taming": {
+          "IsTameable": false,
+          "TamingLevel": null
+        },
+        "Attributes": {
+          "Strength": 104,
+          "Agility": 226,
+          "Intelligence": 99,
+          "Psyche": 67,
+          "Stamina": 100
+        },
+        "Defense": {
+          "Stab": null,
+          "Cut": null,
+          "Impact": null,
+          "Penetration": null,
+          "Shrapnel": null,
+          "Burn": null,
+          "Cold": null,
+          "Acid": null,
+          "Electric": null
+        }
+      },
+      "Attacks": [
+        {
+          "Name": "Primary",
+          "Damage": {
+            "Stab": null,
+            "Cut": 50,
+            "Impact": 50,
+            "Penetration": null,
+            "Shrapnel": null,
+            "Burn": null,
+            "Cold": null,
+            "Acid": null,
+            "Electric": null
+          },
+          "TotalDamage": null,
+          "IsAoE": false
+        }
+      ],
+      "Mob": {
+        "Name": "5P1D3R",
+        "Links": {
+          "$Url": "/mobs/1"
+        }
+      },
+      "Links": {
+        "$Url": "/mobmaturities/1"
+      }
+    },
+    {
+      "Id": 2,
+      "Name": "Generation II",
+      "Properties": {
+        "Description": null,
+        "Health": 2000,
+        "AttacksPerMinute": null,
+        "Level": 18,
+        "RegenerationInterval": null,
+        "RegenerationAmount": null,
+        "MissChance": null,
+        "Taming": {
+          "IsTameable": false,
+          "TamingLevel": null
+        },
+        "Attributes": {
+          "Strength": 104,
+          "Agility": 226,
+          "Intelligence": 99,
+          "Psyche": 67,
+          "Stamina": 200
+        },
+        "Defense": {
+          "Stab": null,
+          "Cut": null,
+          "Impact": null,
+          "Penetration": null,
+          "Shrapnel": null,
+          "Burn": null,
+          "Cold": null,
+          "Acid": null,
+          "Electric": null
+        }
+      },
+      "Attacks": [
+        {
+          "Name": "Primary",
+          "Damage": {
+            "Stab": null,
+            "Cut": 50,
+            "Impact": 50,
+            "Penetration": null,
+            "Shrapnel": null,
+            "Burn": null,
+            "Cold": null,
+            "Acid": null,
+            "Electric": null
+          },
+          "TotalDamage": null,
+          "IsAoE": false
+        }
+      ],
+      "Mob": {
+        "Name": "5P1D3R",
+        "Links": {
+          "$Url": "/mobs/1"
+        }
+      },
+      "Links": {
+        "$Url": "/mobmaturities/2"
+      }
+    },
+    {
+      "Id": 3,
+      "Name": "Generation V",
+      "Properties": {
+        "Description": null,
+        "Health": 5000,
+        "AttacksPerMinute": null,
+        "Level": 47,
+        "RegenerationInterval": null,
+        "RegenerationAmount": null,
+        "MissChance": null,
+        "Taming": {
+          "IsTameable": false,
+          "TamingLevel": null
+        },
+        "Attributes": {
+          "Strength": 104,
+          "Agility": 226,
+          "Intelligence": 99,
+          "Psyche": 67,
+          "Stamina": 500
+        },
+        "Defense": {
+          "Stab": null,
+          "Cut": null,
+          "Impact": null,
+          "Penetration": null,
+          "Shrapnel": null,
+          "Burn": null,
+          "Cold": null,
+          "Acid": null,
+          "Electric": null
+        }
+      },
+      "Attacks": [
+        {
+          "Name": "Primary",
+          "Damage": {
+            "Stab": null,
+            "Cut": 50,
+            "Impact": 50,
+            "Penetration": null,
+            "Shrapnel": null,
+            "Burn": null,
+            "Cold": null,
+            "Acid": null,
+            "Electric": null
+          },
+          "TotalDamage": null,
+          "IsAoE": false
+        }
+      ],
+      "Mob": {
+        "Name": "5P1D3R",
+        "Links": {
+          "$Url": "/mobs/1"
+        }
+      },
+      "Links": {
+        "$Url": "/mobmaturities/3"
+      }
+    },
+    {
+      "Id": 4,
+      "Name": "Generation IX",
+      "Properties": {
+        "Description": null,
+        "Health": 9000,
+        "AttacksPerMinute": null,
+        "Level": 84,
+        "RegenerationInterval": null,
+        "RegenerationAmount": null,
+        "MissChance": null,
+        "Taming": {
+          "IsTameable": false,
+          "TamingLevel": null
+        },
+        "Attributes": {
+          "Strength": 104,
+          "Agility": 226,
+          "Intelligence": 99,
+          "Psyche": 67,
+          "Stamina": 900
+        },
+        "Defense": {
+          "Stab": null,
+          "Cut": null,
+          "Impact": null,
+          "Penetration": null,
+          "Shrapnel": null,
+          "Burn": null,
+          "Cold": null,
+          "Acid": null,
+          "Electric": null
+        }
+      },
+      "Attacks": [
+        {
+          "Name": "Primary",
+          "Damage": {
+            "Stab": null,
+            "Cut": 50,
+            "Impact": 50,
+            "Penetration": null,
+            "Shrapnel": null,
+            "Burn": null,
+            "Cold": null,
+            "Acid": null,
+            "Electric": null
+          },
+          "TotalDamage": null,
+          "IsAoE": false
+        }
+      ],
+      "Mob": {
+        "Name": "5P1D3R",
+        "Links": {
+          "$Url": "/mobs/1"
+        }
+      },
+      "Links": {
+        "$Url": "/mobmaturities/4"
+      }
+    },
+    {
+      "Id": 5,
+      "Name": "Generation III",
+      "Properties": {
+        "Description": null,
+        "Health": 3000,
+        "AttacksPerMinute": null,
+        "Level": 20,
+        "RegenerationInterval": null,
+        "RegenerationAmount": null,
+        "MissChance": null,
+        "Taming": {
+          "IsTameable": false,
+          "TamingLevel": null
+        },
+        "Attributes": {
+          "Strength": 104,
+          "Agility": 226,
+          "Intelligence": 99,
+          "Psyche": 67,
+          "Stamina": 300
+        },
+        "Defense": {
+          "Stab": null,
+          "Cut": null,
+          "Impact": null,
+          "Penetration": null,
+          "Shrapnel": null,
+          "Burn": null,
+          "Cold": null,
+          "Acid": null,
+          "Electric": null
+        }
+      },
+      "Attacks": [
+        {
+          "Name": "Primary",
+          "Damage": {
+            "Stab": null,
+            "Cut": 50,
+            "Impact": 50,
+            "Penetration": null,
+            "Shrapnel": null,
+            "Burn": null,
+            "Cold": null,
+            "Acid": null,
+            "Electric": null
+          },
+          "TotalDamage": null,
+          "IsAoE": false
+        }
+      ],
+      "Mob": {
+        "Name": "5P1D3R",
+        "Links": {
+          "$Url": "/mobs/1"
+        }
+      },
+      "Links": {
+        "$Url": "/mobmaturities/5"
+      }
+    },
+    {
+      "Id": 6,
+      "Name": "Generation IV",
+      "Properties": {
+        "Description": null,
+        "Health": 4000,
+        "AttacksPerMinute": null,
+        "Level": 37,
+        "RegenerationInterval": null,
+        "RegenerationAmount": null,
+        "MissChance": null,
+        "Taming": {
+          "IsTameable": false,
+          "TamingLevel": null
+        },
+        "Attributes": {
+          "Strength": 104,
+          "Agility": 226,
+          "Intelligence": 99,
+          "Psyche": 67,
+          "Stamina": 400
+        },
+        "Defense": {
+          "Stab": null,
+          "Cut": null,
+          "Impact": null,
+          "Penetration": null,
+          "Shrapnel": null,
+          "Burn": null,
+          "Cold": null,
+          "Acid": null,
+          "Electric": null
+        }
+      },
+      "Attacks": [
+        {
+          "Name": "Primary",
+          "Damage": {
+            "Stab": null,
+            "Cut": 50,
+            "Impact": 50,
+            "Penetration": null,
+            "Shrapnel": null,
+            "Burn": null,
+            "Cold": null,
+            "Acid": null,
+            "Electric": null
+          },
+          "TotalDamage": null,
+          "IsAoE": false
+        }
+      ],
+      "Mob": {
+        "Name": "5P1D3R",
+        "Links": {
+          "$Url": "/mobs/1"
+        }
+      },
+      "Links": {
+        "$Url": "/mobmaturities/6"
+      }
+    },
+    {
+      "Id": 7,
+      "Name": "Generation VI",
+      "Properties": {
+        "Description": null,
+        "Health": 6000,
+        "AttacksPerMinute": null,
+        "Level": 56,
+        "RegenerationInterval": null,
+        "RegenerationAmount": null,
+        "MissChance": null,
+        "Taming": {
+          "IsTameable": false,
+          "TamingLevel": null
+        },
+        "Attributes": {
+          "Strength": 104,
+          "Agility": 226,
+          "Intelligence": 99,
+          "Psyche": 67,
+          "Stamina": 600
+        },
+        "Defense": {
+          "Stab": null,
+          "Cut": null,
+          "Impact": null,
+          "Penetration": null,
+          "Shrapnel": null,
+          "Burn": null,
+          "Cold": null,
+          "Acid": null,
+          "Electric": null
+        }
+      },
+      "Attacks": [
+        {
+          "Name": "Primary",
+          "Damage": {
+            "Stab": null,
+            "Cut": 50,
+            "Impact": 50,
+            "Penetration": null,
+            "Shrapnel": null,
+            "Burn": null,
+            "Cold": null,
+            "Acid": null,
+            "Electric": null
+          },
+          "TotalDamage": null,
+          "IsAoE": false
+        }
+      ],
+      "Mob": {
+        "Name": "5P1D3R",
+        "Links": {
+          "$Url": "/mobs/1"
+        }
+      },
+      "Links": {
+        "$Url": "/mobmaturities/7"
+      }
+    },
+    {
+      "Id": 8,
+      "Name": "Generation VII",
+      "Properties": {
+        "Description": null,
+        "Health": 7000,
+        "AttacksPerMinute": null,
+        "Level": 66,
+        "RegenerationInterval": null,
+        "RegenerationAmount": null,
+        "MissChance": null,
+        "Taming": {
+          "IsTameable": false,
+          "TamingLevel": null
+        },
+        "Attributes": {
+          "Strength": 104,
+          "Agility": 226,
+          "Intelligence": 99,
+          "Psyche": 67,
+          "Stamina": 700
+        },
+        "Defense": {
+          "Stab": null,
+          "Cut": null,
+          "Impact": null,
+          "Penetration": null,
+          "Shrapnel": null,
+          "Burn": null,
+          "Cold": null,
+          "Acid": null,
+          "Electric": null
+        }
+      },
+      "Attacks": [
+        {
+          "Name": "Primary",
+          "Damage": {
+            "Stab": null,
+            "Cut": 50,
+            "Impact": 50,
+            "Penetration": null,
+            "Shrapnel": null,
+            "Burn": null,
+            "Cold": null,
+            "Acid": null,
+            "Electric": null
+          },
+          "TotalDamage": null,
+          "IsAoE": false
+        }
+      ],
+      "Mob": {
+        "Name": "5P1D3R",
+        "Links": {
+          "$Url": "/mobs/1"
+        }
+      },
+      "Links": {
+        "$Url": "/mobmaturities/8"
+      }
+    },
+    {
+      "Id": 9,
+      "Name": "Generation VIII",
+      "Properties": {
+        "Description": null,
+        "Health": 8000,
+        "AttacksPerMinute": null,
+        "Level": 75,
+        "RegenerationInterval": null,
+        "RegenerationAmount": null,
+        "MissChance": null,
+        "Taming": {
+          "IsTameable": false,
+          "TamingLevel": null
+        },
+        "Attributes": {
+          "Strength": 104,
+          "Agility": 226,
+          "Intelligence": 99,
+          "Psyche": 67,
+          "Stamina": 800
+        },
+        "Defense": {
+          "Stab": null,
+          "Cut": null,
+          "Impact": null,
+          "Penetration": null,
+          "Shrapnel": null,
+          "Burn": null,
+          "Cold": null,
+          "Acid": null,
+          "Electric": null
+        }
+      },
+      "Attacks": [
+        {
+          "Name": "Primary",
+          "Damage": {
+            "Stab": null,
+            "Cut": 50,
+            "Impact": 50,
+            "Penetration": null,
+            "Shrapnel": null,
+            "Burn": null,
+            "Cold": null,
+            "Acid": null,
+            "Electric": null
+          },
+          "TotalDamage": null,
+          "IsAoE": false
+        }
+      ],
+      "Mob": {
+        "Name": "5P1D3R",
+        "Links": {
+          "$Url": "/mobs/1"
+        }
+      },
+      "Links": {
+        "$Url": "/mobmaturities/9"
+      }
+    },
+    {
+      "Id": 10,
+      "Name": "Generation X",
+      "Properties": {
+        "Description": null,
+        "Health": 10000,
+        "AttacksPerMinute": null,
+        "Level": 94,
+        "RegenerationInterval": null,
+        "RegenerationAmount": null,
+        "MissChance": null,
+        "Taming": {
+          "IsTameable": false,
+          "TamingLevel": null
+        },
+        "Attributes": {
+          "Strength": 104,
+          "Agility": 226,
+          "Intelligence": 99,
+          "Psyche": 67,
+          "Stamina": 1000
+        },
+        "Defense": {
+          "Stab": null,
+          "Cut": null,
+          "Impact": null,
+          "Penetration": null,
+          "Shrapnel": null,
+          "Burn": null,
+          "Cold": null,
+          "Acid": null,
+          "Electric": null
+        }
+      },
+      "Attacks": [
+        {
+          "Name": "Primary",
+          "Damage": {
+            "Stab": null,
+            "Cut": 50,
+            "Impact": 50,
+            "Penetration": null,
+            "Shrapnel": null,
+            "Burn": null,
+            "Cold": null,
+            "Acid": null,
+            "Electric": null
+          },
+          "TotalDamage": null,
+          "IsAoE": false
+        }
+      ],
+      "Mob": {
+        "Name": "5P1D3R",
+        "Links": {
+          "$Url": "/mobs/1"
+        }
+      },
+      "Links": {
+        "$Url": "/mobmaturities/10"
+      }
+    },
+    {
+      "Id": 5146,
+      "Name": "GIGA",
+      "Properties": {
+        "Description": null,
+        "Health": 305000,
+        "AttacksPerMinute": null,
+        "Level": null,
+        "RegenerationInterval": null,
+        "RegenerationAmount": null,
+        "MissChance": null,
+        "Taming": {
+          "IsTameable": false,
+          "TamingLevel": null
+        },
+        "Attributes": {
+          "Strength": 104,
+          "Agility": 226,
+          "Intelligence": 99,
+          "Psyche": 67,
+          "Stamina": 30500
+        },
+        "Defense": {
+          "Stab": 0,
+          "Cut": 0,
+          "Impact": 0,
+          "Penetration": 0,
+          "Shrapnel": 0,
+          "Burn": 0,
+          "Cold": 0,
+          "Acid": 0,
+          "Electric": 0
+        }
+      },
+      "Attacks": [
+        {
+          "Name": "Primary",
+          "Damage": {
+            "Stab": null,
+            "Cut": 50,
+            "Impact": 50,
+            "Penetration": null,
+            "Shrapnel": null,
+            "Burn": null,
+            "Cold": null,
+            "Acid": null,
+            "Electric": null
+          },
+          "TotalDamage": null,
+          "IsAoE": false
+        }
+      ],
+      "Mob": {
+        "Name": "5P1D3R",
+        "Links": {
+          "$Url": "/mobs/1"
+        }
+      },
+      "Links": {
+        "$Url": "/mobmaturities/5146"
+      }
+    }
+  ],
+  "Spawns": [],
+  "Loots": [
+    {
+      "Mob": {
+        "Name": "5P1D3R",
+        "Planet": {
+          "Name": "Cyrene",
+          "Links": {
+            "$Url": "/planets/7"
+          }
+        },
+        "Links": {
+          "$Url": "/mobs/1"
+        }
+      },
+      "Maturity": {
+        "Name": "Generation II",
+        "Links": {
+          "$Url": "/mobmaturities/2"
+        }
+      },
+      "Item": {
+        "Name": "Advanced Stone Extractor",
+        "Properties": {
+          "Type": "Material"
+        },
+        "Links": {
+          "$Url": "/materials/50"
+        }
+      },
+      "Frequency": "Uncommon",
+      "LastVU": "17.19.2",
+      "IsEvent": false,
+      "IsDropping": true
+    },
+    {
+      "Mob": {
+        "Name": "5P1D3R",
+        "Planet": {
+          "Name": "Cyrene",
+          "Links": {
+            "$Url": "/planets/7"
+          }
+        },
+        "Links": {
+          "$Url": "/mobs/1"
+        }
+      },
+      "Maturity": {
+        "Name": "Generation I",
+        "Links": {
+          "$Url": "/mobmaturities/1"
+        }
+      },
+      "Item": {
+        "Name": "Basic Targeting Chip",
+        "Properties": {
+          "Type": "Material"
+        },
+        "Links": {
+          "$Url": "/materials/271"
+        }
+      },
+      "Frequency": "Uncommon",
+      "LastVU": "17.18.1",
+      "IsEvent": false,
+      "IsDropping": true
+    },
+    {
+      "Mob": {
+        "Name": "5P1D3R",
+        "Planet": {
+          "Name": "Cyrene",
+          "Links": {
+            "$Url": "/planets/7"
+          }
+        },
+        "Links": {
+          "$Url": "/mobs/1"
+        }
+      },
+      "Maturity": {
+        "Name": "Generation I",
+        "Links": {
+          "$Url": "/mobmaturities/1"
+        }
+      },
+      "Item": {
+        "Name": "Cbase Robot Plastic",
+        "Properties": {
+          "Type": "Material"
+        },
+        "Links": {
+          "$Url": "/materials/426"
+        }
+      },
+      "Frequency": "Common",
+      "LastVU": "17.20.1a",
+      "IsEvent": false,
+      "IsDropping": true
+    },
+    {
+      "Mob": {
+        "Name": "5P1D3R",
+        "Planet": {
+          "Name": "Cyrene",
+          "Links": {
+            "$Url": "/planets/7"
+          }
+        },
+        "Links": {
+          "$Url": "/mobs/1"
+        }
+      },
+      "Maturity": {
+        "Name": "Generation I",
+        "Links": {
+          "$Url": "/mobmaturities/1"
+        }
+      },
+      "Item": {
+        "Name": "Electronic Stabilizing Component",
+        "Properties": {
+          "Type": "Material"
+        },
+        "Links": {
+          "$Url": "/materials/665"
+        }
+      },
+      "Frequency": "Common",
+      "LastVU": "17.20.1a",
+      "IsEvent": false,
+      "IsDropping": true
+    },
+    {
+      "Mob": {
+        "Name": "5P1D3R",
+        "Planet": {
+          "Name": "Cyrene",
+          "Links": {
+            "$Url": "/planets/7"
+          }
+        },
+        "Links": {
+          "$Url": "/mobs/1"
+        }
+      },
+      "Maturity": {
+        "Name": null,
+        "Links": {
+          "$Url": "/mobmaturities/null"
+        }
+      },
+      "Item": {
+        "Name": "Focus Lens Component",
+        "Properties": {
+          "Type": "Material"
+        },
+        "Links": {
+          "$Url": "/materials/818"
+        }
+      },
+      "Frequency": "Uncommon",
+      "LastVU": "17.15.1",
+      "IsEvent": false,
+      "IsDropping": true
+    },
+    {
+      "Mob": {
+        "Name": "5P1D3R",
+        "Planet": {
+          "Name": "Cyrene",
+          "Links": {
+            "$Url": "/planets/7"
+          }
+        },
+        "Links": {
+          "$Url": "/mobs/1"
+        }
+      },
+      "Maturity": {
+        "Name": "Generation I",
+        "Links": {
+          "$Url": "/mobmaturities/1"
+        }
+      },
+      "Item": {
+        "Name": "High Grade Electronic Component",
+        "Properties": {
+          "Type": "Material"
+        },
+        "Links": {
+          "$Url": "/materials/1061"
+        }
+      },
+      "Frequency": "Common",
+      "LastVU": "17.20.1a",
+      "IsEvent": false,
+      "IsDropping": true
+    },
+    {
+      "Mob": {
+        "Name": "5P1D3R",
+        "Planet": {
+          "Name": "Cyrene",
+          "Links": {
+            "$Url": "/planets/7"
+          }
+        },
+        "Links": {
+          "$Url": "/mobs/1"
+        }
+      },
+      "Maturity": {
+        "Name": "Generation I",
+        "Links": {
+          "$Url": "/mobmaturities/1"
+        }
+      },
+      "Item": {
+        "Name": "High Grade Scrap",
+        "Properties": {
+          "Type": "Material"
+        },
+        "Links": {
+          "$Url": "/materials/1068"
+        }
+      },
+      "Frequency": "Common",
+      "LastVU": "17.19.2",
+      "IsEvent": false,
+      "IsDropping": true
+    },
+    {
+      "Mob": {
+        "Name": "5P1D3R",
+        "Planet": {
+          "Name": "Cyrene",
+          "Links": {
+            "$Url": "/planets/7"
+          }
+        },
+        "Links": {
+          "$Url": "/mobs/1"
+        }
+      },
+      "Maturity": {
+        "Name": "Generation I",
+        "Links": {
+          "$Url": "/mobmaturities/1"
+        }
+      },
+      "Item": {
+        "Name": "Inferior Cloth Extractor",
+        "Properties": {
+          "Type": "Material"
+        },
+        "Links": {
+          "$Url": "/materials/1127"
+        }
+      },
+      "Frequency": "Common",
+      "LastVU": "17.15.1",
+      "IsEvent": false,
+      "IsDropping": true
+    },
+    {
+      "Mob": {
+        "Name": "5P1D3R",
+        "Planet": {
+          "Name": "Cyrene",
+          "Links": {
+            "$Url": "/planets/7"
+          }
+        },
+        "Links": {
+          "$Url": "/mobs/1"
+        }
+      },
+      "Maturity": {
+        "Name": "Generation I",
+        "Links": {
+          "$Url": "/mobmaturities/1"
+        }
+      },
+      "Item": {
+        "Name": "Medium Grade Electronic Component",
+        "Properties": {
+          "Type": "Material"
+        },
+        "Links": {
+          "$Url": "/materials/1410"
+        }
+      },
+      "Frequency": "Common",
+      "LastVU": "17.15.1",
+      "IsEvent": false,
+      "IsDropping": true
+    },
+    {
+      "Mob": {
+        "Name": "5P1D3R",
+        "Planet": {
+          "Name": "Cyrene",
+          "Links": {
+            "$Url": "/planets/7"
+          }
+        },
+        "Links": {
+          "$Url": "/mobs/1"
+        }
+      },
+      "Maturity": {
+        "Name": "Generation I",
+        "Links": {
+          "$Url": "/mobmaturities/1"
+        }
+      },
+      "Item": {
+        "Name": "Medium Grade Motion Sensor",
+        "Properties": {
+          "Type": "Material"
+        },
+        "Links": {
+          "$Url": "/materials/1414"
+        }
+      },
+      "Frequency": "Common",
+      "LastVU": "17.20.1a",
+      "IsEvent": false,
+      "IsDropping": true
+    },
+    {
+      "Mob": {
+        "Name": "5P1D3R",
+        "Planet": {
+          "Name": "Cyrene",
+          "Links": {
+            "$Url": "/planets/7"
+          }
+        },
+        "Links": {
+          "$Url": "/mobs/1"
+        }
+      },
+      "Maturity": {
+        "Name": "Generation I",
+        "Links": {
+          "$Url": "/mobmaturities/1"
+        }
+      },
+      "Item": {
+        "Name": "Medium Grade Power Supply",
+        "Properties": {
+          "Type": "Material"
+        },
+        "Links": {
+          "$Url": "/materials/1415"
+        }
+      },
+      "Frequency": "Common",
+      "LastVU": "17.15.1",
+      "IsEvent": false,
+      "IsDropping": true
+    },
+    {
+      "Mob": {
+        "Name": "5P1D3R",
+        "Planet": {
+          "Name": "Cyrene",
+          "Links": {
+            "$Url": "/planets/7"
+          }
+        },
+        "Links": {
+          "$Url": "/mobs/1"
+        }
+      },
+      "Maturity": {
+        "Name": null,
+        "Links": {
+          "$Url": "/mobmaturities/null"
+        }
+      },
+      "Item": {
+        "Name": "Paint Can (Blue)",
+        "Properties": {
+          "Type": "Material"
+        },
+        "Links": {
+          "$Url": "/materials/1645"
+        }
+      },
+      "Frequency": "Common",
+      "LastVU": "17.13.0",
+      "IsEvent": false,
+      "IsDropping": true
+    },
+    {
+      "Mob": {
+        "Name": "5P1D3R",
+        "Planet": {
+          "Name": "Cyrene",
+          "Links": {
+            "$Url": "/planets/7"
+          }
+        },
+        "Links": {
+          "$Url": "/mobs/1"
+        }
+      },
+      "Maturity": {
+        "Name": null,
+        "Links": {
+          "$Url": "/mobmaturities/null"
+        }
+      },
+      "Item": {
+        "Name": "Paint Can (Light Green)",
+        "Properties": {
+          "Type": "Material"
+        },
+        "Links": {
+          "$Url": "/materials/1663"
+        }
+      },
+      "Frequency": "Uncommon",
+      "LastVU": "17.6",
+      "IsEvent": false,
+      "IsDropping": true
+    },
+    {
+      "Mob": {
+        "Name": "5P1D3R",
+        "Planet": {
+          "Name": "Cyrene",
+          "Links": {
+            "$Url": "/planets/7"
+          }
+        },
+        "Links": {
+          "$Url": "/mobs/1"
+        }
+      },
+      "Maturity": {
+        "Name": "Generation I",
+        "Links": {
+          "$Url": "/mobmaturities/1"
+        }
+      },
+      "Item": {
+        "Name": "Robot Component Residue",
+        "Properties": {
+          "Type": "Material"
+        },
+        "Links": {
+          "$Url": "/materials/1980"
+        }
+      },
+      "Frequency": "Often",
+      "LastVU": "17.20.1a",
+      "IsEvent": false,
+      "IsDropping": true
+    },
+    {
+      "Mob": {
+        "Name": "5P1D3R",
+        "Planet": {
+          "Name": "Cyrene",
+          "Links": {
+            "$Url": "/planets/7"
+          }
+        },
+        "Links": {
+          "$Url": "/mobs/1"
+        }
+      },
+      "Maturity": {
+        "Name": "Generation I",
+        "Links": {
+          "$Url": "/mobmaturities/1"
+        }
+      },
+      "Item": {
+        "Name": "Robot Filter",
+        "Properties": {
+          "Type": "Material"
+        },
+        "Links": {
+          "$Url": "/materials/1990"
+        }
+      },
+      "Frequency": "Often",
+      "LastVU": "17.20.1a",
+      "IsEvent": false,
+      "IsDropping": true
+    },
+    {
+      "Mob": {
+        "Name": "5P1D3R",
+        "Planet": {
+          "Name": "Cyrene",
+          "Links": {
+            "$Url": "/planets/7"
+          }
+        },
+        "Links": {
+          "$Url": "/mobs/1"
+        }
+      },
+      "Maturity": {
+        "Name": "Generation I",
+        "Links": {
+          "$Url": "/mobmaturities/1"
+        }
+      },
+      "Item": {
+        "Name": "Socket 1 Component",
+        "Properties": {
+          "Type": "Material"
+        },
+        "Links": {
+          "$Url": "/materials/2181"
+        }
+      },
+      "Frequency": "Common",
+      "LastVU": "17.14.0",
+      "IsEvent": false,
+      "IsDropping": true
+    },
+    {
+      "Mob": {
+        "Name": "5P1D3R",
+        "Planet": {
+          "Name": "Cyrene",
+          "Links": {
+            "$Url": "/planets/7"
+          }
+        },
+        "Links": {
+          "$Url": "/mobs/1"
+        }
+      },
+      "Maturity": {
+        "Name": "Generation I",
+        "Links": {
+          "$Url": "/mobmaturities/1"
+        }
+      },
+      "Item": {
+        "Name": "Socket 2 Component",
+        "Properties": {
+          "Type": "Material"
+        },
+        "Links": {
+          "$Url": "/materials/2182"
+        }
+      },
+      "Frequency": "Uncommon",
+      "LastVU": "17.13.0",
+      "IsEvent": false,
+      "IsDropping": true
+    },
+    {
+      "Mob": {
+        "Name": "5P1D3R",
+        "Planet": {
+          "Name": "Cyrene",
+          "Links": {
+            "$Url": "/planets/7"
+          }
+        },
+        "Links": {
+          "$Url": "/mobs/1"
+        }
+      },
+      "Maturity": {
+        "Name": null,
+        "Links": {
+          "$Url": "/mobmaturities/null"
+        }
+      },
+      "Item": {
+        "Name": "Socket 3 Component",
+        "Properties": {
+          "Type": "Material"
+        },
+        "Links": {
+          "$Url": "/materials/2183"
+        }
+      },
+      "Frequency": "Uncommon",
+      "LastVU": "17.15.1",
+      "IsEvent": false,
+      "IsDropping": true
+    },
+    {
+      "Mob": {
+        "Name": "5P1D3R",
+        "Planet": {
+          "Name": "Cyrene",
+          "Links": {
+            "$Url": "/planets/7"
+          }
+        },
+        "Links": {
+          "$Url": "/mobs/1"
+        }
+      },
+      "Maturity": {
+        "Name": "Generation IX",
+        "Links": {
+          "$Url": "/mobmaturities/4"
+        }
+      },
+      "Item": {
+        "Name": "Socket 9 Component",
+        "Properties": {
+          "Type": "Material"
+        },
+        "Links": {
+          "$Url": "/materials/2189"
+        }
+      },
+      "Frequency": "Uncommon",
+      "LastVU": "17.18.1",
+      "IsEvent": false,
+      "IsDropping": true
+    },
+    {
+      "Mob": {
+        "Name": "5P1D3R",
+        "Planet": {
+          "Name": "Cyrene",
+          "Links": {
+            "$Url": "/planets/7"
+          }
+        },
+        "Links": {
+          "$Url": "/mobs/1"
+        }
+      },
+      "Maturity": {
+        "Name": "Generation II",
+        "Links": {
+          "$Url": "/mobmaturities/2"
+        }
+      },
+      "Item": {
+        "Name": "A.R.C. Tier 1 Unlimited Weapon Voucher",
+        "Properties": {
+          "Type": "Material"
+        },
+        "Links": {
+          "$Url": "/materials/2665"
+        }
+      },
+      "Frequency": "Extremely rare",
+      "LastVU": "17.23.2.a",
+      "IsEvent": false,
+      "IsDropping": true
+    },
+    {
+      "Mob": {
+        "Name": "5P1D3R",
+        "Planet": {
+          "Name": "Cyrene",
+          "Links": {
+            "$Url": "/planets/7"
+          }
+        },
+        "Links": {
+          "$Url": "/mobs/1"
+        }
+      },
+      "Maturity": {
+        "Name": "Generation V",
+        "Links": {
+          "$Url": "/mobmaturities/3"
+        }
+      },
+      "Item": {
+        "Name": "Kinetic Attack Nanochip 6 (L)",
+        "Properties": {
+          "Type": "Weapon"
+        },
+        "Links": {
+          "$Url": "/weapons/1770"
+        }
+      },
+      "Frequency": "Rare",
+      "LastVU": "17.23.2.a",
+      "IsEvent": false,
+      "IsDropping": true
+    }
+  ],
+  "Links": {
+    "$Url": "/mobs/1"
+  }
+}

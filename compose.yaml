@@ -1,0 +1,15 @@
+services:
+  entropia-backend:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+
+  db:
+    image: postgres:18.1-alpine3.23
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: entropia
+      POSTGRES_DB: entropiaDB
+      POSTGRES_PASSWORD: example

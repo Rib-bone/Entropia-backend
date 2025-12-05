@@ -1,0 +1,1 @@
+{"Id":717,"Name":"Zil'zik","Type":null,"Properties":{"Description":null,"AttackRange":null,"AggressionRange":null,"IsSweatable":false},"DefensiveProfession":{"Name":"Evader","Links":{"$Url":"/professions/42"}},"ScanningProfession":null,"Planet":{"Name":"Cyrene","Links":{"$Url":"/planets/7"}},"Species":null,"Maturities":[],"Spawns":[],"Loots":[],"Links":{"$Url":"/mobs/717"}}
