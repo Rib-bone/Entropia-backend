@@ -1,16 +1,13 @@
 package risto.turtiainen.entropia_backend.entity;
 
-
-import java.security.PublicKey;
-
-public enum MobType {
-    ROBOT("Robot"),
-    ANIMAL("Animal"),
-    MUTANT("Mutant");
+public enum DamageType {
+    CUT("Cut"),
+    STAB("Stab"),
+    ELECTRIC("Electric");
 
     private final String text;
 
-    MobType(final String text) {
+    DamageType(final String text) {
         this.text = text;
     }
 

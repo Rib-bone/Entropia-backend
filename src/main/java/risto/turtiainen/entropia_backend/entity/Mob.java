@@ -1,16 +1,25 @@
 package risto.turtiainen.entropia_backend.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.List;
 
 @Data
 @Entity
+@NoArgsConstructor(force = true)
 @Table(name = "mob")
 public class Mob {
+
     @Id
     private int id;
     private String name;
-    //private MobType type;
+
+    @Enumerated(EnumType.STRING)
+    private final MobType type;
+
+    @OneToMany(mappedBy="mob")
+    private List<Maturity> maturities;
+
 }
