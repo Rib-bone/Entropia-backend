@@ -12,4 +12,4 @@ services:
     environment:
       POSTGRES_USER: entropia
       POSTGRES_DB: entropiaDB
-      POSTGRES_PASSWORD: example
+      POSTGRES_PASSWORD: ${DB_PASSWORD}

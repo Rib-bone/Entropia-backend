@@ -66,11 +66,14 @@ def main():
 
 def read_material_files(cursor, item_index: int, x: int):
     file = open(f'../../../data/item/Material.{x}.csv', 'r')
+    read_files_items(cursor, file, item_index)
+    file.close()
 
+
+def read_files_items(cursor, file: TextIOWrapper[_WrappedBuffer], item_index: int | Any):
     reader = csv.reader(file, delimiter=';', quotechar='|')
     row_index = 0
     for row in reader:
-
         if row_index == 0:
             row_index = row_index + 1
             continue
@@ -84,8 +87,6 @@ def read_material_files(cursor, item_index: int, x: int):
         item_index = item_index + 1
         row_index = row_index + 1
         print("---------------------------------------")
-
-    file.close()
 
 
 def map_cell_to_item(cell: str, cell_index: int, item: Item):
