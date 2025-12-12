@@ -10,7 +10,7 @@ def main():
             response = urllib.request.urlopen(f'https://api.entropianexus.com/mobs/{x}')
         except:
             continue
-        file = open(f'../../../data/data_{x}.json', 'w')
+        file = open(f'../../../data/mob/mob_{x}.json', 'w')
         file.write(response.read().decode("utf-8"))
         file.close()
 

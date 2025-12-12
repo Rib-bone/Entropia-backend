@@ -1,0 +1,501 @@
+Name;Type;Value;Markup;Refines To;Amount;Source;Found on
+Mechanomatrix Adapter Unit 1;Electronic Component;0.3903;210.00%; ; ;Crafted;Planet Calypso
+Mechanomatrix Adapter Unit 2;Electronic Component;0.75; ; ; ;Crafted;Planet Calypso
+Mechanomatrix Adapter Unit 3;Electronic Component;1.65; ; ; ;Crafted;Planet Calypso
+Mechano-Stabilizer Component 1;Electronic Component;0.2; ; ; ;Looted; 
+Mechano-Stabilizer Component 2;Electronic Component;0.3; ; ; ;Looted; 
+Mechano-Stabilizer Component 3;Electronic Component;0.4; ; ; ;Looted; 
+Medical Compress;Refined Enmatter;0.18;345.00%; ; ;Refined;Entropia Universe
+Medium Frieze Fabric Texture;Texture Material;0.16; ; ; ;Crafted;Planet Calypso
+Medium Grade Electronic Component;Robot Parts;0.0136;120.00%;Medium Grade Motherboard;1;Looted;Planet Cyrene
+Medium Grade Metal;Generic Component; ; ; ; ;Looted; 
+Medium Grade Metal Compound;Refined Material;0.276; ; ; ;Refined;Planet Cyrene
+Medium Grade Motherboard;Refined Material;0.07; ; ; ;Refined;Planet Cyrene
+Medium Grade Motion Sensor;Robot Parts;0.01; ;Medium Grade Processor;1;Looted;Planet Cyrene
+Medium Grade Power Supply;Electronic Component;0.048; ; ; ;Looted;Planet Cyrene
+Medium Grade Processor;Robot Parts;0.15; ; ; ; ;Planet Cyrene
+Medium Grade Scrap;Robot Parts;0.066;100.00%;Medium Grade Metal Compound;1;Looted;Planet Cyrene
+Medium Power Cell;Electronic Component;0.5; ; ; ;Crafted;Planet Cyrene
+Megan Ingot;Refined Ore;0.54;119.00%; ; ;Refined;Entropia Universe
+Megan Stone;Ore;0.18;120.00%;Megan Ingot;3;Looted, Mined;Entropia Universe
+Megan Texture;Texture Material;0.38; ; ; ;Crafted;Planet Calypso
+Melatinum Ingot;Refined Ore;0.3; ; ; ;Refined;Planet Arkadia
+Melatinum Stone;Ore;0.1; ;Melatinum Ingot;3;Mined;Planet Arkadia
+Melatinum Texture;Texture Material;0.13; ; ; ;Crafted;Planet Arkadia
+Melchi Crystal;Refined Enmatter;0.04;102.00%; ; ;Refined;Entropia Universe
+Melchi Water;Enmatter;0.02;104.00%;Chalinum Alloy;2,18,8;Looted, Mined;Entropia Universe
+Mermoth Leather;Refined Material;0.39; ; ; ;Refined;Planet Calypso
+Mermoth Leather Texture;Texture Material;0.38; ; ; ;Crafted;Planet Calypso
+Mermoth Skin;Natural Material;0.13;122.00%;Mermoth Leather;3,3;Looted;Planet Calypso
+Merp DNA Samples;DNA;7.02; ; ; ;Refined;Planet Calypso
+Merp Horn;DNA;0.68; ;Merp DNA Samples;1;Looted;Planet Calypso
+Merp Sails;DNA;0.34; ;Merp DNA Samples;1;Looted;Planet Calypso
+Merp Textile;Refined Material;1.08; ; ; ;Refined;Planet Calypso
+Merp Wool;Natural Material;0.36;145.00%;Merp Textile;3;Looted;Planet Calypso
+Metallic Bone Replacement;Beauty;0.28; ; ; ;Crafted;Planet Calypso
+Metal Mountings;Metal Component;0.6;130.00%; ; ;Crafted;Entropia Universe
+Metal Plating;Metal Component;0.1; ; ; ;Crafted;Entropia Universe
+Metal Residue;Residue;0.01; ; ; ;Crafted;Planet Calypso
+Metal Ruds;Metal Component;0.35;140.21%; ; ;Crafted;Entropia Universe
+Metal Skull;Natural Material;34; ; ; ;Looted;Planet Calypso
+Midastree Board;Wood;0.21; ;Midastree Veneer;1/21;Looted;Planet Calypso
+Midastree Texture;Texture Material;0.01; ; ; ;Crafted;Planet Calypso
+Midastree Veneer;Wood Component;0.01;200.00%; ; ;Refined;Planet Calypso
+Miluca Texture;Texture Material;0.02; ; ; ;Crafted;Planet Arkadia
+Miluca Timber;Wood;0.05;118.16%;Miluca Veneer;1/5;Looted;Planet Arkadia
+Miluca Veneer;Wood Component;0.01; ; ; ;Refined;Planet Arkadia
+Mind Essence;Consumable;0.0001;120.00%; ; ;Refined;Planet Arkadia
+Minotaur Arm;Natural Material;0.03; ; ; ;Looted;Ancient Greece
+Minotaur Head;Natural Material;0.1; ; ; ;Looted;Ancient Greece
+Minotaur Horn;Natural Material;0.03; ; ; ;Looted;Ancient Greece
+Minotaur Leg;Natural Material;0.01; ; ; ;Looted;Ancient Greece
+Minotaur Shin Guard;Natural Material;0.02; ; ; ;Looted;Ancient Greece
+Minotaur Shoulder Pauldron;Natural Material;0.015; ; ; ;Looted;Ancient Greece
+Minotaur Tail;Natural Material;0.01;120.00%; ; ;Looted;Ancient Greece
+Miranda Violet;Paint Cans;0.04;0.00%; ; ;Looted;Next Island
+Mirsal Token;Token;0.01;151.00%; ; ;Looted, SOOTO;Planet Toulan
+Mitochondria;Natural Material; ; ; ; ; ;Planet Cyrene
+Modified Nanites;Upgrade Material;1; ; ; ;Looted;Planet Arkadia
+Modified Source Code;Material;0.25; ; ; ;Looted, Event Prize;Hell
+Mojito Cocktail;Refined Enmatter;0.04; ; ; ;Refined;ROCKtropia
+Mojito Cocktail Mix;Enmatter;0.02; ;Mojito Cocktail;2,2;Mined;Hell
+Mokhat Gelatinous;Refined Material;0.06;196.00%; ; ;Refined;Planet Toulan
+Mokhat Hand;Natural Material;0.02;196.00%;Mokhat Gelatinous;3;Looted;Planet Toulan
+Mokhat Hide;Natural Material;0.07;110.00%;Mokhat Leather;4;Looted;Planet Toulan
+Mokhat Jelly;Natural Material;0.008;2182.00%; ; ;Looted;Planet Toulan
+Mokhat Leather;Refined Material;0.28;110.00%; ; ;Refined;Planet Toulan
+Mokhat Organ;Natural Material;0.06;141.00%;Mokhat Rubber;3;Looted;Planet Toulan
+Mokhat Rubber;Refined Material;0.24;138.00%; ; ;Refined;Planet Toulan
+Mokhat Texture;Texture Material;0.19;121.00%; ; ;Crafted;Planet Toulan
+Moldavite Crystal;Crystal;0.01;143.00%;Refined Moldavite Crystal;1;Looted;Next Island
+Molisk Claw;DNA;0.01; ;Molisk DNA Samples;12;Looted;Planet Calypso
+Molisk DNA Samples;DNA;9.8; ; ; ;Refined;Planet Calypso
+Molisk Enamel Buttons;Refined Material;0.03; ; ; ;Refined;Planet Calypso
+Molisk Skull;DNA;5; ;Molisk DNA Samples;1;Looted;Planet Calypso
+Molisk Tooth;Natural Material;0.01;120.00%;Molisk DNA Samples;3,12;Looted;Planet Calypso
+Molten Kaisenite Texture;Texture Material;0.037; ; ; ;Crafted; 
+Molten Zorn Texture;Texture Material;0.03; ; ; ;Crafted; 
+Monrian Enhanced Plating;Electronic Component;3.33; ; ; ;Crafted;Entropia Universe
+Monrian Enhanced Power System;Electronic Component;2.1; ; ; ;Crafted;Entropia Universe
+Monrian Plating;Electronic Component;0.11;180.00%; ; ;Crafted;Monria
+Monrian Power System;Electronic Component;0.07;145.00%; ; ;Crafted;Monria
+Monster Truck Tire;Vehicle Component;0.5; ; ; ;Looted;ROCKtropia
+Monster Truck Tire Rim;Vehicle Component;1; ; ; ;Looted;ROCKtropia
+Monster Truck Wheel;Vehicle Component;0.5;1250.00%; ; ;Crafted;ROCKtropia
+Monura Female Hide;Natural Material;0.03; ;Monura Female Leather;3;Looted;Planet Arkadia
+Monura Female Leather;Refined Material;0.09; ; ; ;Refined;Planet Arkadia
+Monura Female Leather Texture;Texture Material;0.02; ; ; ;Crafted;Planet Arkadia
+Monura Male Hide;Natural Material;0.03; ;Monura Male Leather;3;Looted;Planet Arkadia
+Monura Male Leather;Refined Material;0.09; ; ; ;Refined;Planet Arkadia
+Monura Male Leather Texture;Texture Material;0.02; ; ; ;Crafted;Planet Arkadia
+Moonleaf Board;Wood;0.03;145.00%; ; ;Harvesting;Entropia Universe
+Morpheus Ingot;Refined Ore;2.49;108.00%; ; ;Refined;Entropia Universe
+Morpheus Stone;Ore;0.83; ;Aumorphite Ingot;3,3;Looted, Mined;Entropia Universe
+Morpheus Texture;Texture Material;1.03; ; ; ;Crafted;Planet Calypso
+Morrison Dragon Leather;Refined Material;0.9; ; ; ;Refined;ROCKtropia
+Morrison Dragon Texture;Texture Material;0.15; ; ; ;Crafted;ROCKtropia
+Morrison Hide;Natural Material;0.3; ;Morrison Dragon Leather;3;Looted;ROCKtropia
+Morrison Tail;Natural Material;0.4; ; ; ;Looted;ROCKtropia
+Morrison Wing;Natural Material; ; ; ; ;Looted;ROCKtropia
+Mortar;Construction Material;4; ; ; ;Crafted;Ancient Greece
+Mosquito Amber;Refined Treasure;0.9;105.00%; ; ;Refined;Planet Arkadia
+Mostly Intact Skull Bird Skull;Natural Material; ; ; ; ;Looted;Planet Cyrene
+Motorhead - Ace of Spades Album;Music Media;0.05;300.00%; ; ;Looted;ROCKtropia
+MOTORHEAD BEER CAN;Other;0; ; ; ;Looted;ROCKtropia
+Motorhead - Bomber Album;Music Media;0.01; ; ; ;Looted;ROCKtropia
+Motorhead - Iron Fist Album;Music Media;15; ; ; ;Looted;ROCKtropia
+Motorhead Keg;Material;0.01;150.00%;Ruxxnet Code;10;Found;ROCKtropia
+Motorhead - Motorhead Album;Music Media;1; ; ; ;Looted;ROCKtropia
+Motorhead - Overkill Album;Music Media;5;120.00%; ; ;Looted;ROCKtropia
+Motörhead Security Blood;Natural Material;1; ; ; ;Looted;ROCKtropia
+Motörhead Security Hide;Natural Material;0.5; ; ; ;Looted;ROCKtropia
+Motörhead Security Horn;Natural Material;2; ; ; ;Looted;ROCKtropia
+Mourner Leather;Refined Material;0.45; ; ; ;Refined;Planet Calypso
+Mourner Leather Texture;Texture Material;0.45; ; ; ;Crafted;Planet Calypso
+Mourner Skin;Natural Material;0.15; ;Mourner Leather;3;Looted;Planet Calypso
+MOVIEstar Dust;Natural Material; ; ; ; ;Looted;ROCKtropia
+Multi-Fang Mutant Skull;Natural Material;6.5; ; ; ;Looted;Planet Calypso
+Muscle Oil Compound B;Natural Material;0.02;110.00%; ; ;Crafted;Planet Cyrene
+Muscovite Crystal;Crystal;0.06;124.00%;Refined Muscovite Crystal;1;Looted;Next Island
+Mutant DNA Strand;DNA;0.02; ; ; ;Looted;Next Island
+Mutated Aurli Bone Piece;Natural Material;1; ; ; ;Looted;Crystal Palace
+Mutated Halloween Pumpkin;Mission Item;0; ; ; ;Looted;Planet Calypso
+Mutation Agent;DNA;50;140.00%; ; ;Looted;Planet Arkadia
+Nahar Mist Texture;Texture Material;0.04;126.00%; ; ;Crafted;Planet Toulan
+Nanocube;Electronic Component;0.01;100.00%; ; ;TT;Entropia Universe
+Narcanisum Ingot;Refined Ore;0.24;108.00%; ; ;Refined;Entropia Universe
+Narcanisum Stone;Ore;0.08; ;Narcanisum Ingot;3;Looted, Mined;Entropia Universe
+Narcanisum Texture;Texture Material;0.28; ; ; ;Crafted;Planet Calypso
+Navi Hide;Natural Material;0.5; ; ; ;Looted;Planet Arkadia
+Navi Leather;Refined Material;1.5; ; ; ;Refined;Planet Arkadia
+Navi Leather Texture;Texture Material;0.38; ; ; ;Crafted;Planet Arkadia
+NawaCore MK2 part A;Construction Material;2;500.00%; ; ;Looted;Planet Toulan
+NawaCore MK2 part B;Construction Material;2;628.57%; ; ;Looted;Planet Toulan
+NawaCore MK2 part C;Construction Material;2;1175.00%; ; ;Looted;Planet Toulan
+NawaCore MK2 part D;Construction Material;2;2000.00%; ; ;Looted;Planet Toulan
+NawaCore MK2 part E;Construction Material;2;700.00%; ; ;Looted;Planet Toulan
+NawaCore MK3 part A;Construction Material;2;400.00%; ; ;Looted;Planet Toulan
+NawaCore MK3 Part B;Construction Material;2;550.00%; ; ;Looted;Planet Toulan
+NawaCore MK3 part C;Construction Material;2;1150.00%; ; ;Looted;Planet Toulan
+NawaCore MK3 part D;Construction Material;2;1300.00%; ; ;Looted;Planet Toulan
+NawaCore MK3 part E;Construction Material;2;500.00%; ; ;Looted;Planet Toulan
+Nawa Drops;Enmatter;0.01;194.00%;Nawa Vial;2;Mined;Planet Toulan
+Nawa Energy Cells;Refined Enmatter;0.021;1940.00%; ; ;Refined;Planet Toulan
+Nawa Fragment;Enmatter;0.01;977.00%;Nawa Shard;2;Rig;Planet Toulan
+Nawa Shard;Refined Enmatter;0.02;977.00%;Nawa Energy Cells;1;Refined;Planet Toulan
+Nawa Vial;Refined Enmatter;0.02;194.00%; ; ;Refined;Planet Toulan
+Neconu  DNA Samples;DNA;25.78; ; ; ;Refined;Planet Calypso
+Neconu Hair;DNA;0.98; ;Neconu  DNA Samples;7;Looted;Planet Calypso
+Neconu Jaw;DNA;6.7; ;Neconu  DNA Samples;1;Looted;Planet Calypso
+Neconu Teeth;DNA;0.09;100.00%;Neconu  DNA Samples;23;Looted;Planet Calypso
+Neomex Slime;Natural Material;0.1; ; ; ;Looted;Planet Calypso
+Neoweave Adjusted;Material;1.2; ; ; ;Refined;Ancient Greece
+Neoweave Augmented;Material; ; ; ; ;Refined;Ancient Greece
+Neoweave Improved;Material; ; ; ; ;Refined;Ancient Greece
+Neoweave Modified;Material; ; ; ; ;Refined;Ancient Greece
+Neoweave Perfected;Material; ; ; ; ;Refined;Ancient Greece
+Nepotism Potion;Mechanical Component;0.17; ; ; ;Crafted;ROCKtropia
+NEVERDIE Dragon Leather;Refined Material;1; ; ; ;Refined;ROCKtropia
+NEVERDIE Dragon Texture;Texture Material; ; ; ; ;Crafted;ROCKtropia
+NEVERDIE - GAMER CHICK HIT SINGLE;Music Media;0.01; ; ; ;Looted;ROCKtropia
+NEVERDIE Hide;Natural Material; ; ;NEVERDIE Dragon Leather;3;Looted;ROCKtropia
+NEVERDIE - NEVERDIE SINGLE;Music Media;0.1;300.00%; ; ;Looted;ROCKtropia
+Nexnecis Hide;Natural Material;0.66; ;Nexnecis Leather;3;Looted;Planet Calypso
+Nexnecis Leather;Refined Material;1.98; ; ; ;Refined;Planet Calypso
+Nexnecis Leather Texture;Texture Material;1.55; ; ; ;Crafted;Planet Calypso
+NI Carnival Ticket Bronze;Material;0.08; ; ; ;Crafted, Looted;Next Island
+NI Carnival Ticket Gold;Material;0.373; ; ; ;Crafted;Next Island
+NI Carnival Ticket Silver;Material;0.153; ; ; ;Crafted;Next Island
+Niksarium Ingot;Refined Ore;1.95;101.86%; ; ;Refined;Entropia Universe
+Niksarium Stone;Ore;0.65;107.00%;Niksarium Ingot;3;Looted, Mined;Entropia Universe
+Niksarium Texture;Texture Material;0.85; ; ; ;Crafted;Planet Calypso
+NI Paint Can (Aubergine);Paint Cans;0.05; ; ; ;Looted;Ancient Greece
+NI Paint Can (Baby Blue);Paint Cans;0.03; ; ; ;Looted;Next Island
+NI Paint Can (Berry Blue);Paint Cans;0.05; ; ; ;Looted;Ancient Greece
+NI Paint Can (Blurple);Paint Cans;0.05; ; ; ;Looted;Next Island
+NI Paint Can (Camouflage);Paint Cans;0.08; ; ; ;Looted;Next Island
+NI Paint Can (Carrot);Paint Cans;0.06; ; ; ;Looted;Next Island
+NI Paint Can (Celadon);Paint Cans;0.05; ; ; ;Looted;Next Island
+NI Paint Can (Dark Aubergine);Paint Cans;0.1; ; ; ;Looted;Next Island
+NI Paint Can (Dark Blurple);Paint Cans;0.05; ; ; ;Looted;Ancient Greece
+NI Paint Can (Dark Lilac);Paint Cans;0.05; ; ; ;Looted;Next Island
+NI Paint Can (Dark Mirandas Violet);Paint Cans;0.05; ; ; ;Looted;Next Island
+NI Paint Can (Dark Teal);Paint Cans;0.1; ; ; ;Looted;Next Island
+NI Paint Can (Dust Storm);Paint Cans;0.09; ; ; ;Looted;Next Island
+NI Paint Can (Flamingo);Paint Cans;0.09; ; ; ;Looted;Ancient Greece
+NI Paint Can (Forest);Paint Cans;0.09; ; ; ;Looted;Next Island
+NI Paint Can (French Pink);Paint Cans;0.1; ; ; ;Looted;Ancient Greece
+NI Paint Can (Grellow);Paint Cans;0.03; ; ; ;Looted;Next Island
+NI Paint Can (Hazel);Paint Cans;0.06; ; ; ;Looted;Next Island
+NI Paint Can (Hot Pink);Paint Cans;0.1; ; ; ;Looted;Next Island
+NI Paint Can (Island Spices);Paint Cans;0.04; ; ; ;Looted;Secret Island
+NI Paint Can (Khaki);Paint Cans;0.09; ; ; ;Looted;Next Island
+NI Paint Can (Kylons Blue);Paint Cans;0.03; ; ; ;Looted;Next Island
+NI Paint Can (Lime Green);Paint Cans;0.05; ; ; ;Looted;Next Island
+NI Paint Can (Maroon);Paint Cans;0.08;108.00%; ; ;Looted;Ancient Greece
+NI Paint Can (Merigold);Paint Cans;0.05; ; ; ;Looted;Next Island
+NI Paint Can (Mirandas Violet);Paint Cans;0.03; ; ; ;Looted;Next Island
+NI Paint Can (Nevada);Paint Cans;0.1; ; ; ;Looted;Next Island
+NI Paint Can (Pale Green);Paint Cans;0.05; ; ; ;Looted;Next Island
+NI Paint Can (Pale Ivory);Paint Cans;0.1;110.00%; ; ;Looted;Ancient Greece
+NI Paint Can (Parchment);Paint Cans;0.03; ; ; ;Looted;Next Island
+NI Paint Can (Powder Blue);Paint Cans;0.08; ; ; ;Looted;Next Island
+NI Paint Can (Punch);Paint Cans;0.09; ; ; ;Looted;Next Island
+NI Paint Can (Rose);Paint Cans;0.09; ; ; ;Looted;Ancient Greece
+NI Paint Can (Scorpion);Paint Cans;0.1; ; ; ;Looted;Next Island
+NI Paint Can (Spring);Paint Cans;0.04;103.00%; ; ;Looted;Ancient Greece
+NI Paint Can (Sunshine);Paint Cans;0.03; ; ; ;Looted;Secret Island
+NI Paint Can (Taffy);Paint Cans;0.06; ; ; ;Looted;Next Island
+NI Paint Can (Teal);Paint Cans;0.08; ; ; ;Looted;Next Island
+Nirvana Cocktail;Refined Enmatter;0.04;125.00%; ; ;Refined;ROCKtropia
+Nirvana Cocktail Mix;Enmatter;0.02; ;Nirvana Cocktail;2,2;Mined;Hell
+Nissit;Natural Material;1E-05; ; ; ;Found;Planet Arkadia
+Nissit Stone Texture;Texture Material;0.02; ; ; ;Crafted;Planet Calypso
+Nosifer Stone;Ore;0.08; ;Nosi Ingot;3;Mined;Planet Cyrene
+Nosi Ingot;Refined Ore;0.24; ; ; ;Refined;Planet Cyrene
+Nosi Texture;Texture Material;0.16; ; ; ;Crafted;Planet Cyrene
+Novaculite Crystal;Crystal;0.02; ;Refined Novaculite Crystal;1;Looted;Next Island
+Nova Fragment;Fragment;1E-05;21000.00%;Chalinum Alloy;60,100,100,30,100,1000,50,80;Looted;Entropia Universe
+Nuclear Blast Launch Codes;Other;0.1;220.00%; ; ;Looted;ROCKtropia
+Nuclear Bushweed;Natural Material;0.001; ; ; ;Looted;ROCKtropia
+Nuclear Hemp Cloth;Refined Material; ; ; ; ;Refined;ROCKtropia
+Nusul DNA Cartridge;DNA; ; ; ; ;Refined;Planet Arkadia
+Nusul Ear;Natural Material;0.2; ; ; ;Looted;Planet Arkadia
+Nusul Flesh;DNA;1; ;Nusul DNA Cartridge;2;Looted;Planet Arkadia
+Nusul Foot;DNA;2; ;Nusul DNA Cartridge;2;Looted;Planet Arkadia
+Nusul Hide;Natural Material;0.15; ;Nusul Leather;3;Looted;Planet Arkadia
+Nusul Leather;Refined Material;0.45; ; ; ;Refined;Planet Arkadia
+Nusul Leather Texture;Texture Material;0.11; ; ; ;Crafted;Planet Arkadia
+Nusul Nose;DNA;3; ;Nusul DNA Cartridge;1;Looted;Planet Arkadia
+Nusul Tail;DNA;1; ;Nusul DNA Cartridge;1;Looted;Planet Arkadia
+Nutrio Bar;Food;0.01; ; ; ;Refined;Planet Calypso
+Obsidian Crystal;Crystal;0.05; ;Refined Obsidian Crystal;1;Looted;Next Island
+Oculus Leather;Refined Material;0.93; ; ; ;Refined;Planet Calypso
+Oculus Leather Texture;Texture Material;0.94; ; ; ;Crafted;Planet Calypso
+Oculus Skin;Natural Material;0.31;185.00%;Oculus Leather;3;Looted;Planet Calypso
+Oil;Refined Enmatter;0.02;103.00%; ; ;Refined, Looted;Entropia Universe
+Oiled Arkace Boards;Wood Component;0.3;120.00%; ; ;Crafted;Planet Arkadia
+Oiled Corria Boards;Wood Component;0.5;120.00%; ; ;Crafted;Planet Arkadia
+Oiled Hekia Boards;Wood Component;0.4;120.00%; ; ;Crafted;Planet Arkadia
+Oiled Miluca Boards;Wood Component;0.2;120.00%; ; ;Crafted;Planet Arkadia
+Okenite Crystal;Crystal;0.03; ;Refined Okenite Crystal;1;Looted;Next Island
+Old Bus Token;Token;0.01; ; ; ; ;ROCKtropia
+Old Subway Token;Token;0.01; ; ; ;Mined;ROCKtropia
+Olerin Ingot;Refined Ore;0.21; ;Medium Grade Metal Compound;1;Refined;Planet Cyrene
+Olerin Stone;Ore;0.07; ;Olerin Ingot;3;Mined;Planet Cyrene
+Omegaton A100 Series Parts;Refined Weapon Attachment;1; ; ; ;Refined;Planet Calypso
+Omegaton Decoy;Consumable;0.25; ; ; ;TT;Planet Calypso
+Omegaton Seismic Bomb;Consumable;1; ; ; ;Old;Entropia Universe
+Onyx;Crystal;0.04; ;Refined Onyx Crystal;1;Looted;Ancient Greece
+Oompa Hide;Natural Material;0.25; ;Oompa Leather;3;Looted;Arkadia Moon
+Oompa Leather;Refined Material;0.75; ; ; ;Refined;Arkadia Moon
+Oompa Leather Texture;Texture Material;0.18; ; ; ;Crafted;Arkadia Moon
+Oompa Warhound Hide;Natural Material;0.5; ;Oompa Warhound Leather;3;Looted;Arkadia Moon
+Oompa Warhound Leather;Refined Material;1.5; ; ; ;Refined;Arkadia Moon
+Oompa Warhound Leather Texture;Texture Material;0.38; ; ; ;Crafted;Arkadia Moon
+Opal;Precious Stones;200;10000.00%;Pile of Opals;1/1000;Crafting, Looted;Entropia Universe
+Opal Crystal;Crystal;0.02; ;Refined Opal Crystal;1;Looted;Next Island
+Opal Texture;Texture Material;15; ; ; ;Crafted;Planet Calypso
+Open Source Code;Material;0.25;125.00%; ; ;Looted, Event Prize;Hell
+Optimism Potion;Mechanical Component;0.3;125.00%; ; ;Crafted;ROCKtropia
+Orange Crystal;Enmatter;0.07;152.00%;Softening Agent;2;Mined;Planet Cyrene
+Orange Crystal Texture;Texture Material;0.12; ; ; ;Crafted;Planet Cyrene
+O Rings;Mechanical Component;0.02;120.00%; ; ;Crafted;Planet Arkadia
+Oro Brain;DNA;3; ;Oro DNA Cartridge;1;Looted;Planet Arkadia
+Oro Cranial Blade;Natural Material;1; ; ; ;Looted;Planet Arkadia
+Oro DNA Cartridge;DNA; ; ; ; ;Refined;Planet Arkadia
+Oro Flesh;DNA;2; ;Oro DNA Cartridge;2;Looted;Planet Arkadia
+Oro Forearm;DNA;1; ;Oro DNA Cartridge;2;Looted;Planet Arkadia
+Oro Hide;Natural Material;0.1; ;Oro Leather;3;Looted;Planet Arkadia
+Oro Leather;Refined Material;0.3; ; ; ;Refined;Planet Arkadia
+Oro Leather Texture;Texture Material;0.07; ; ; ;Crafted;Planet Arkadia
+Oro Skull;Natural Material;0.03; ; ; ;Looted;Planet Arkadia
+Oro Tail;DNA;2; ;Oro DNA Cartridge;1;Looted;Planet Arkadia
+Ospra Ingot;Refined Ore;0.06;103.00%; ; ;Refined;Planet Arkadia
+Ospra Stones;Ore;0.02; ;Ospra Ingot;3;Mined, Looted;Planet Arkadia
+Ospra Texture;Texture Material;0.2; ; ; ;Crafted;Planet Arkadia
+Ostelok Craw;DNA;1; ;Ostelok DNA Cartridge;2;Looted;Planet Arkadia
+Ostelok DNA Cartridge;DNA; ; ; ; ;Refined;Planet Arkadia
+Ostelok Foot;DNA;1; ;Ostelok DNA Cartridge;2;Looted;Planet Arkadia
+Ostelok Hide;Natural Material;0.04; ;Ostelok Leather;3;Looted;Planet Arkadia
+Ostelok Leather;Refined Material;0.12; ; ; ;Refined;Planet Arkadia
+Ostelok Leather Texture;Texture Material;0.04; ; ; ;Crafted;Planet Arkadia
+Ostelok Lower Beak;Natural Material;0.4;140.00%; ; ;Looted;Planet Arkadia
+Ostelok Pommel;DNA;2; ;Ostelok DNA Cartridge;1;Looted;Planet Arkadia
+Ostelok Pommel Feather;Natural Material;0.45;100.00%; ; ;Looted;Planet Arkadia
+Ostelok Upper Beak;DNA; ; ;Ostelok DNA Cartridge;1;Looted;Planet Arkadia
+Otorugi Brain;DNA;10; ;Otorugi DNA Cartridge;1;Looted;Planet Arkadia
+Otorugi DNA Cartridge;DNA; ; ; ; ;Refined;Planet Arkadia
+Otorugi Eye;DNA;2; ;Otorugi DNA Cartridge;2;Looted;Planet Arkadia
+Otorugi Foot;DNA;1; ;Otorugi DNA Cartridge;2;Looted;Planet Arkadia
+Otorugi Hide;Natural Material;0.8; ;Otorugi Leather;3;Looted;Planet Arkadia
+Otorugi Leather;Refined Material;2.4; ; ; ;Refined;Planet Arkadia
+Otorugi Leather Texture;Texture Material;0.6; ; ; ;Crafted;Planet Arkadia
+Otorugi Nail;Natural Material;2.8; ; ; ;Looted;Planet Arkadia
+Otorugi Shoulder Horn;Natural Material;0.24; ; ; ;Looted;Planet Arkadia
+Otorugi Spine;DNA;4; ;Otorugi DNA Cartridge;1;Looted;Planet Arkadia
+Output Amplifier Component;Enhancer Component;0.4;140.00%; ; ;Looted;Planet Calypso
+Outstanding Calcium Compound;Refined Material;0.12; ; ; ;Refined;Planet Cyrene
+Oweko Brain;DNA; ; ;Oweko DNA Cartridge;1;Looted;Planet Arkadia
+Oweko Cranial Blade;Natural Material;2.2; ; ; ;Looted;Planet Arkadia
+Oweko DNA Cartridge;DNA; ; ; ; ;Refined;Planet Arkadia
+Oweko Flesh;DNA;3; ;Oweko DNA Cartridge;2;Looted;Planet Arkadia
+Oweko Forearm;DNA;2; ;Oweko DNA Cartridge;2;Looted;Planet Arkadia
+Oweko Hide;Natural Material;0.5; ;Oweko Leather;3;Looted;Planet Arkadia
+Oweko Leather;Refined Material;1.5; ; ; ;Refined;Planet Arkadia
+Oweko Leather Texture;Texture Material;0.36; ; ; ;Crafted;Planet Arkadia
+Oweko Skull;Natural Material;0.24; ; ; ;Looted;Planet Arkadia
+Oweko Tail;DNA;3; ;Oweko DNA Cartridge;1;Looted;Planet Arkadia
+Oxidized Aluminium Texture;Texture Material;0.37; ; ; ;Crafted;Planet Calypso
+Oxidized Iron Texture;Texture Material;0.43; ; ; ;Crafted;Planet Calypso
+Oxidized Lysterium Texture;Texture Material;0.31; ; ; ;Crafted;Planet Calypso
+Ozpyn Filters;Mechanical Component;0.23; ; ; ;Crafted;Planet Cyrene
+Ozpyn Lever;Metal Component;0.08; ; ; ;Crafted;Planet Cyrene
+Ozpyn Matrix;Electronic Component;0.03; ; ; ;Crafted;Planet Cyrene
+P.I.M.P Cup;Other;20; ; ; ;Looted;ROCKtropia
+Paint Can (Black);Paint Cans;1;308.00%; ; ;Looted;Entropia Universe
+Paint Can (Blue);Paint Cans;0.05;165.00%; ; ;Looted;Entropia Universe
+Paint Can (Brigadier);Paint Cans;0.5;1000.00%; ; ;Looted;Entropia Universe
+Paint Can (Brown);Paint Cans;0.07;124.00%; ; ;Looted;Entropia Universe
+Paint Can (Burgundy);Paint Cans;0.19; ; ; ;Looted;Entropia Universe
+Paint Can (Burnt Umber);Paint Cans;0.15; ; ; ;Looted;Entropia Universe
+Paint Can (Cornsilk);Paint Cans;0.24; ; ; ;Looted;Entropia Universe
+Paint Can (Crimson);Paint Cans;0.42; ; ; ;Looted;Entropia Universe
+Paint Can (Dark Blue);Paint Cans;0.2; ; ; ;Looted;Entropia Universe
+Paint Can (Dark Crimson);Paint Cans;2.2;115.00%; ; ;Looted;Entropia Universe
+Paint Can (Dark Green);Paint Cans;0.09; ; ; ;Looted;Entropia Universe
+Paint Can (Dark Lavender);Paint Cans;0.21; ; ; ;Looted;Entropia Universe
+Paint Can (Dark Mauve);Paint Cans;0.27; ; ; ;Looted;Entropia Universe
+Paint Can (Dark Purple);Paint Cans;0.08;260.87%; ; ;Looted;Entropia Universe
+Paint Can (Darkslate Grey);Paint Cans;0.75;649.00%; ; ;Looted;Entropia Universe
+Paint Can (Dark Steel Blue);Paint Cans;0.06; ; ; ;Looted;Entropia Universe
+Paint Can (Dark Umber);Paint Cans;0.36; ; ; ;Looted;Entropia Universe
+Paint Can (Deep Cadmium);Paint Cans;0.14; ; ; ;Looted;Entropia Universe
+Paint Can (Green);Paint Cans;0.07;115.00%; ; ;Looted;Entropia Universe
+Paint Can (Light Green);Paint Cans;0.09; ; ; ;Looted;Entropia Universe
+Paint Can (Mauve);Paint Cans;0.11; ; ; ;Looted;Entropia Universe
+Paint Can (Navy);Paint Cans;0.1;140.00%; ; ;Looted;Entropia Universe
+Paint Can (Olive);Paint Cans;0.05;136.00%; ; ;Looted;Entropia Universe
+Paint Can (Orange);Paint Cans;0.01;322.00%; ; ;Looted;Entropia Universe
+Paint Can (Pink);Paint Cans;0.08;130.00%; ; ;Looted;Entropia Universe
+Paint Can (Purple);Paint Cans;0.06;123.00%; ; ;Looted;Entropia Universe
+Paint Can (Red);Paint Cans;0.6; ; ; ;Looted;Entropia Universe
+Paint Can (Silver);Paint Cans;0.29; ; ; ;Looted;Entropia Universe
+Paint Can (Steel Blue);Paint Cans;0.06; ; ; ;Looted;Entropia Universe
+Paint Can (Turqoise);Paint Cans;0.08;115.00%; ; ;Looted;Entropia Universe
+Paint Can (Umber);Paint Cans;0.13;106.00%; ; ;Looted;Entropia Universe
+Paint Can (Violet Cream);Paint Cans;0.12;108.50%; ; ;Looted;Entropia Universe
+Paint Can (White);Paint Cans;0.3; ; ; ;Looted;Entropia Universe
+Paint Can (Yellow);Paint Cans;0.03;170.00%; ; ;Looted;Entropia Universe
+Pandi Hide;Natural Material;0.9; ;Pandi Leather;3;Looted;Planet Arkadia
+Pandi Leather;Refined Material;2.7; ; ; ;Refined;Planet Arkadia
+Pandi Leather Texture;Texture Material;0.67; ; ; ;Crafted;Planet Arkadia
+Paneleon Droplet;Material;0.2; ;Paneleon Pristine Element;5;Looted;Planet Cyrene
+Paneleon Hide;Natural Material;1; ;Paneleon Leather;3;Looted;Planet Cyrene
+Paneleon Leather;Refined Material;3; ; ; ;Refined;Planet Cyrene
+Paneleon Leather Texture;Texture Material;1.003; ; ; ;Crafted;Planet Cyrene
+Paneleon Pet;Generic Component; ; ;Caged Paneleons;100;Looted, Tamed;Planet Cyrene
+Paneleon Pristine Element;Natural Material;1; ; ; ;Looted, Refined;Planet Cyrene
+Panther Cloth;Refined Material;3; ; ; ;Refined;ROCKtropia
+Panther Hide;Natural Material;1; ;Panther Cloth;3;Looted;ROCKtropia
+Panther Texture;Texture Material;0.3; ; ; ;Crafted;ROCKtropia
+Papoo Eye;Natural Material;0.01;2250.00%; ; ;Looted;Next Island
+Papoo Foot;Natural Material;0.01;4000.00%; ; ;Looted;Next Island
+Papoo Heart;Natural Material;0.08;4000.00%; ; ;Looted;Next Island
+Papoo Palm;Natural Material;0.005;4000.00%; ; ;Looted;Next Island
+Papoo Tail;Natural Material;0.01; ; ; ;Looted;Next Island
+Papoo Tooth;Natural Material;0.05;117.00%; ; ;Looted;Next Island
+Papplon;Food;1E-05; ;Nutrio Bar;1,1,1;Found;Planet Arkadia
+Papplon Spray;Material;2; ; ; ;Refined;Planet Calypso
+Partial Eye Remains;Natural Material;0.24; ;Pure Choroid;2;Looted;Planet Cyrene
+Part Of Brass Alloy;Treasure;0.12; ;Brass Alloy;3;Mined;Planet Arkadia
+Part Of Bronze Alloy;Treasure;0.1; ;Bronze Alloy;3;Mined;Planet Arkadia
+Part Of Flint Arrow Head;Treasure;0.08; ;Flint Arrow Head;3;Mined;Planet Arkadia
+Part Of Flint  Axe Head;Treasure;0.06; ;Flint Axe Head;3;Mined;Planet Arkadia
+Part Of Fly Amber;Treasure;0.1; ;Fly Amber;3;Mined;Planet Arkadia
+Part Of Fossil Ammonite;Treasure;0.02; ;Fossil Ammonite;3;Mined;Planet Arkadia
+Part Of Fossil Tooth;Treasure;0.01; ;Fossil Tooth;3;Mined;Planet Arkadia
+Part Of Mosquito Amber;Treasure;0.3; ;Mosquito Amber;3;Mined;Planet Arkadia
+Patience Potion;Mechanical Component;0.5; ; ; ;Crafted;ROCKtropia
+Pay Stub;Mission Item;0.0001; ;Ruxxnet Code;3;Mission;ROCKtropia
+Pearl Sand;Refined Enmatter;1.92;125.00%; ; ;Refined;Entropia Universe
+Pel Crystals;Enmatter;0.5; ;Pel Liquid;2;Mined;Planet Arkadia
+Pel Liquid;Refined Enmatter;1; ; ; ;Refined;Planet Arkadia
+Perfect Hide;Natural Material;4.7; ;Perfect Leather;3;Looted;Planet Cyrene
+Perfect Leather;Refined Material;14.1; ; ; ;Refined;Planet Cyrene
+Peridot Crystal;Crystal;0.02; ;Refined Peridot Crystal;1;Looted;Next Island
+Petalite Crystal;Crystal;0.01; ;Refined Petalite Crystal;1;Looted;Next Island
+Petonium Ingot;Refined Ore;5.37;105.00%; ; ;Refined;Entropia Universe
+Petonium Stone;Ore;1.79; ;Magtonium Dust;3;Looted, Mined;F.O.M.A. - Fortuna
+Petonium Texture;Texture Material;1.99; ; ; ;Crafted;Planet Calypso
+Phasm Back Spike;Natural Material;1.5; ; ; ;Looted;Planet Calypso
+Phasm Claw;Natural Material;5.2; ; ; ;Looted;Planet Calypso
+Phasm Cloth;Refined Material;4.2; ; ; ;Refined;Planet Calypso
+Phasm Hide;Natural Material;1.2; ;Phasm Leather;3;Looted;Planet Calypso
+Phasm Leather;Refined Material;3.6; ; ; ;Refined;Planet Calypso
+Phasm Leather Texture;Texture Material;4.86; ; ; ;Crafted;Planet Calypso
+Phasm Wool;Natural Material;1.4; ;Phasm Cloth;3;Looted;Planet Calypso
+Phenacite Crystal;Crystal;0.02; ;Refined Phenacite Crystal;1,1;Looted;Ancient Greece
+Pheromone Gland;Material;0.1;840.00%; ; ;Looted;Planet Calypso
+Phlogiston;Enmatter;0.04; ;Concentrated Phlogiston;3;Mined;Next Island
+Pile of Diamonds;Precious Stones;0.5;105.50%; ; ;Refined, Looted;Entropia Universe
+Pile of Emeralds;Precious Stones;0.3;145.00%; ; ;Refined, Looted;Entropia Universe
+Pile Of Garnets;Precious Stones;0.15;104.00%; ; ;Refined,Looted;Entropia Universe
+Pile of Jasper;Precious Stones;0.4; ;Magtonium Dust; ;Refined; 
+Pile of Opals;Precious Stones;0.2;170.00%; ; ;Refined, Looted;Entropia Universe
+Pile Of Rubies;Precious Stones;0.4;117.00%; ; ;Refined, Looted;Entropia Universe
+Pina Colada Cocktail;Refined Enmatter;0.05;230.00%; ; ;Refined;ROCKtropia
+Pina Colada Cocktail Mix;Enmatter;0.025; ;Pina Colada Cocktail;2,2;Mined;Hell
+Pink Neon Essence;Material;1;200.00%; ; ;Looted;Planet Toulan
+Pirrel Hexaton;Refined Treasure;0.9; ; ; ;Refined;Planet Arkadia
+Pirrel Pellets;Treasure;0.3; ;Pirrel Hexaton;3;Mined;Planet Arkadia
+Plasma;Natural Material;0.01; ; ; ;Looted;Next Island
+Plastic Convector Panel;Metal Component;0.17; ; ; ;Crafted;Planet Cyrene
+Plastic Injection Mold;Electronic Component;0.8; ; ; ;Crafted;Planet Cyrene
+Platinum Ingot;Refined Ore;9;110.00%; ; ;Refined, Looted;Entropia Universe
+Platinum Stone;Ore;3;111.00%;Platinum Ingot;3;Looted, Mined;Entropia Universe
+Platinum Texture;Texture Material;3.2; ; ; ;Crafted;Planet Calypso
+Plumatergus DNA Samples;DNA;9.88; ; ; ;Refined;Planet Calypso
+Plumatergus Large Wing;DNA;4.38; ;Plumatergus DNA Samples;1;Looted;Planet Calypso
+Plumatergus Leather;Refined Material;1.05; ; ; ;Refined;Planet Calypso
+Plumatergus Leather Texture;Texture Material;0.14; ; ; ;Crafted;Planet Calypso
+Plumatergus Skin;Natural Material;0.35;240.00%;Plumatergus DNA Samples;3,3,1,1;Looted;Planet Calypso
+Plumatergus Small Wing;DNA;0.35;123.00%;Plumatergus DNA Samples;6;Looted;Planet Calypso
+Polished Chrome Texture;Texture Material;0.87; ; ; ;Crafted;Planet Calypso
+Polished Metal Robot Scrap;Robot Parts;1.05;103.00%; ; ;Looted;Planet Calypso
+Polish Pirate Flag;Vehicle Component;3; ; ; ;Crafted;ROCKtropia
+Poly-Alloy Strap;Metal Component;0.22; ; ; ;Crafted;Planet Arkadia
+Polymer Rail;Mechanical Component;0.25;130.00%; ; ;Crafted;Planet Arkadia
+Pop Bushweed;Natural Material;0.001; ; ; ;Looted;ROCKtropia
+Pop Claw;Natural Material;0.5; ; ; ;Looted;ROCKtropia
+Pop Dragon Leather;Refined Material;0.3; ; ; ;Refined;ROCKtropia
+Pop Dragon Texture;Texture Material;0.05; ; ; ;Crafted;ROCKtropia
+Pop Hemp Cloth;Refined Material; ; ; ; ;Refined;ROCKtropia
+Pop Hide;Natural Material;0.1; ;Pop Dragon Leather;3;Looted;ROCKtropia
+POPstar Dust;Natural Material; ; ; ; ;Looted;ROCKtropia
+Pop Tail;Natural Material;0.1; ; ; ;Looted;ROCKtropia
+Potential Cure;Natural Material; ; ; ; ; ;Planet Cyrene
+Powder (Copper);Make Up;6; ; ; ;Looted;Entropia Universe
+Powder (Dark Chestnut);Make Up;6; ; ; ;Looted;Entropia Universe
+Powder (Deep Peach);Make Up;6; ; ; ;Looted;Entropia Universe
+Powder (Pale Pink);Make Up;6;115.00%; ; ;Looted;Entropia Universe
+Powder (Tan);Make Up;6; ; ; ;Looted;Entropia Universe
+Power Regulator;Electronic Component;5;108.00%; ; ;Crafted;Planet Arkadia
+Praetonium;Ore;0.02; ;Praetonium Ingot;3;Looted, Mined, Missi;Next Island
+Praetonium Ingot;Refined Ore;0.04; ; ; ;Refined;Next Island
+Praetonium Texture;Texture Material;0.04; ; ; ;Crafted;Next Island
+Prancer Leather;Refined Material;0.9; ; ; ;Refined;Planet Calypso
+Prancer Leather Texture;Texture Material;0.25; ; ; ;Crafted;Planet Calypso
+Prancer Skin;Natural Material;0.3;150.00%;Prancer Leather;3;Looted;Planet Calypso
+Prancer Tail;Natural Material;1; ; ; ;Looted;Planet Calypso
+Primordial Longu Claw;Natural Material;28; ; ; ;Looted;Planet Calypso
+Primordial Longu DNA Samples;DNA;238.5; ; ; ;Refined;Planet Calypso
+Primordial Longu Leather;Refined Material;2.25; ; ; ;Refined;Planet Calypso
+Primordial Longu Leather Texture;Texture Material;0.83; ; ; ;Crafted;Planet Calypso
+Primordial Longu Skin;Natural Material;0.75;105.00%;Primordial Longu Leather;3;Looted;Planet Calypso
+Primordial Longu Skull;Natural Material;96; ; ; ;Looted;Planet Calypso
+Primordial Longu Spike;Natural Material;3.6; ; ; ;Looted;Planet Calypso
+Prison Hootch;Other;0.05; ; ; ;Looted, Mission;ROCKtropia
+Pristine Khada Crystal Shard;Precious Stones;1; ; ; ;Looted;Planet Calypso
+Pristine Spina Carapace;Natural Material;0.1; ; ; ;Looted;Planet Calypso
+Projector Housing;Electronic Component;1.5;133.00%; ; ;Crafted;Planet Arkadia
+Prokaryotic Cells;Natural Material;0.08; ; ; ;Looted;Planet Cyrene
+Propellant Booster;Mechanical Component;2;260.00%; ; ;Crafted;Planet Arkadia
+Propellant Supercharger;Mechanical Component;1.8;171.45%; ; ;Crafted;Planet Arkadia
+Propulsion Connector;Generic Component;5; ; ; ;Looted;Space
+Protective Coating;Mechanical Component;0.04; ;Decent Magnesium Component;2,1;Crafted;Planet Cyrene
+Proteron Blood Sample;DNA;2; ; ; ;Looted;Planet Calypso
+Proteron Eyes;DNA;1.5; ; ; ;Looted;Planet Calypso
+Proteron Neck Bone;DNA;2.5; ; ; ;Looted;Planet Calypso
+Proteron Ribs;DNA;7; ; ; ;Looted;Planet Calypso
+Proteron Skin;DNA;0.7; ; ; ;Looted;Planet Calypso
+Proteron Tooth;DNA;1.5; ; ; ;Looted;Planet Calypso
+Punk Ingot;Refined Ore;0.21;109.35%; ; ;Refined;ROCKtropia
+Punk Rock;Ore;0.07; ;Punk Ingot;3;Mined, Looted;ROCKtropia
+Pure Body Oil;Material;0.1; ; ; ;Looted;Planet Cyrene
+Pure Choroid;Refined Material;0.54; ; ; ;Refined;Planet Cyrene
+Pure Particle Sample MK 1;Electronic Component; ; ; ; ;Crafted;Planet Arkadia
+Pure Particle Sample MK 2;Electronic Component; ; ; ; ;Crafted;Planet Arkadia
+Pure Particle Sample MK 3;Electronic Component; ; ; ; ;Crafted;Planet Arkadia
+Pure Particle Sample MK 4;Electronic Component; ; ; ; ;Crafted;Planet Arkadia
+Pure Particle Sample MK 5;Electronic Component; ; ; ; ;Crafted;Planet Arkadia
+Pure Source Code;Material;0.25; ; ; ;Looted;Hell
+Purified Paneleon Gizzard;Natural Material;10; ; ; ; ;Planet Cyrene
+Purpite texture;Texture Material;0.04; ; ; ;Crafted;Next Island
+Purple Crystal;Enmatter;0.08;131.00%;Darkening Agent;2;Mined;Planet Cyrene
+Purple Crystal Texture;Texture Material;0.13; ; ; ;Crafted;Planet Cyrene
+Purple Snake Skin Cloth;Refined Material; ; ; ; ;Refined;ROCKtropia
+Purpurite Crystal;Crystal;0.06; ;Refined Purpurite Crystal;1;Looted;Next Island
+Putty;Refined Enmatter;0.78;172.00%; ; ;Refined;Entropia Universe
+Pyrite Ingot;Refined Ore;0.6;154.00%; ; ;Refined;Entropia Universe
+Pyrite Stone;Ore;0.2; ;Pyrite Ingot;3;Looted, Mined;Entropia Universe
+Qaffaz Hide;Natural Material;0.02;181.00%;Qaffaz Leather;3;Looted;Planet Toulan
+Qaffaz Leather;Refined Material;0.06;181.00%; ; ;Refined;Planet Toulan
+Qaffaz Marrow;Refined Material;0.12;145.00%; ; ;Refined;Planet Toulan
+Qaffaz Nail;Natural Material;0.07;145.00%;Qaffaz Powder;2;Looted;Planet Toulan
+Qaffaz Powder;Refined Material;0.14;145.00%; ; ;Refined;Planet Toulan
+Qaffaz Tail;Natural Material;0.04;145.00%;Qaffaz Marrow;3;Looted;Planet Toulan
+Qaffaz Texture Skin;Texture Material;0.02;184.00%; ; ;Crafted;Planet Toulan
+Qasdeer Ingot;Refined Ore;0.75;116.08%; ; ;Refined;Planet Toulan
+Qasdeer Stone;Ore;0.25;116.08%;Qasdeer Ingot;3;Mined;Planet Toulan
+Qaydar Card Part (Center);Metal Component;0.01; ; ; ;Looted;Planet Toulan
