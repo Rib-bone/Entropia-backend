@@ -1,0 +1,384 @@
+Name;Type;Max.TT;Markup
+Abrer Laser Sight;Sight;110; 
+Alekz Precision Scope;Scope;34; 
+ArMatrix B-Amplifier 4P (L);BLP Amp;8;137.50%
+ArMatrix B-Amplifier 6P (L);BLP Amp;12;133.00%
+ArMatrix B-Amplifier 8P (L);BLP Amp;16;120.00%
+ArMatrix B-Amplifier 10P (L);BLP Amp;20;145.00%
+ArMatrix B-Amplifier 13P (L);BLP Amp;26;142.31%
+ArMatrix B-Amplifier 17P (L);BLP Amp;34;132.35%
+ArMatrix B-Amplifier 20P (L);BLP Amp;40;138.00%
+ArMatrix B-Amplifier 23P (L);BLP Amp;46;197.39%
+ArMatrix B-Amplifier 25P (L);BLP Amp;50;128.00%
+ArMatrix B-Amplifier 28P (L);BLP Amp;56;130.00%
+ArMatrix B-Amplifier 33P (L);BLP Amp;66;136.00%
+ArMatrix B-Amplifier 37P (L);BLP Amp;74;139.00%
+ArMatrix B-Amplifier 42P (L);BLP Amp;84;136.00%
+ArMatrix B-Amplifier 45P (L);BLP Amp;90;135.00%
+ArMatrix B-Amplifier 50P (L);BLP Amp;100;152.00%
+ArMatrix B-Amplifier 55P (L);BLP Amp;100;147.00%
+ArMatrix B-Amplifier 60P (L);BLP Amp;100;155.00%
+ArMatrix B-Amplifier 65P (L);BLP Amp;100;165.00%
+ArMatrix B-Amplifier 70P (L);BLP Amp;100;170.00%
+ArMatrix B-Amplifier 75P (L);BLP Amp;100;145.00%
+ArMatrix Extender P10 (L);Absorber;100; 
+ArMatrix Extender P15 (L);Absorber;150; 
+ArMatrix Extender P20 (L);Absorber;200; 
+ArMatrix L-Amplifier 4B (L);Energy Amp;8;150.00%
+ArMatrix L-Amplifier 6B (L);Energy Amp;12;135.00%
+ArMatrix L-Amplifier 8B (L);Energy Amp;16;130.00%
+ArMatrix L-Amplifier 10B (L);Energy Amp;20;128.91%
+ArMatrix L-Amplifier 13B (L);Energy Amp;26;123.00%
+ArMatrix L-Amplifier 17B (L);Energy Amp;34;120.00%
+ArMatrix L-Amplifier 20B (L);Energy Amp;40;155.00%
+ArMatrix L-Amplifier 23B (L);Energy Amp;46;172.00%
+ArMatrix L-Amplifier 25B (L);Energy Amp;50;179.00%
+ArMatrix L-Amplifier 28B (L);Energy Amp;56;188.29%
+ArMatrix L-Amplifier 33B (L);Energy Amp;66;142.00%
+ArMatrix L-Amplifier 37B (L);Energy Amp;74;141.00%
+ArMatrix L-Amplifier 42B (L);Energy Amp;84;134.00%
+ArMatrix L-Amplifier 45B (L);Energy Amp;90;131.00%
+ArMatrix L-Amplifier 50B (L);Energy Amp;100;160.01%
+ArMatrix L-Amplifier 55B (L);Energy Amp;100;172.00%
+ArMatrix L-Amplifier 60B (L);Energy Amp;100;170.00%
+ArMatrix L-Amplifier 65B (L);Energy Amp;100;199.00%
+ArMatrix L-Amplifier 70B (L);Energy Amp;100;200.00%
+ArMatrix L-Amplifier 75B (L);Energy Amp;100;213.00%
+ArMatrix Laser Sight Mk.1, TWEN Edition;Sight;200; 
+ArMatrix Laser Sight Mk.2, TWEN Edition;Sight;200; 
+ArMatrix Laser Sight Mk.3, TWEN Edition;Sight;200; 
+ArMatrix Precision Scope Mk.1, TWEN Edition;Scope;200; 
+ArMatrix Precision Scope Mk.2, TWEN Edition;Scope;200; 
+ArMatrix Precision Scope Mk.3, TWEN Edition;Scope;200; 
+Beacin Laser Sight;Sight;160; 
+Bjornir Precision Scope;Scope;58; 
+Block Rocker BLP Amp Mk I (L);BLP Amp;110; 
+Block Rocker BLP Amp Mk II (L);BLP Amp;143; 
+Boom AAC (L);Energy Amp;79; 
+Boom ACC (L);Energy Amp;37; 
+Boom BBC (L);Energy Amp;135; 
+Boom BCC (L);Energy Amp;51.5;10571.00%
+Boom CCC (L);Energy Amp;20.5; 
+Bullseye 1;Sight;60; 
+Bullseye 2;Sight;70;14.50 PED
+Bullseye 3;Sight;80; 
+Bullseye 4;Sight;90; 
+Bullseye 5;Sight;100; 
+Bullseye 6;Sight;110;59.00 PED
+Bullseye 7;Sight;120; 
+Bullseye 8;Sight;130; 
+Bullseye I (L);Sight;15; 
+Bullseye II (L);Sight;17; 
+Bullseye III (L);Sight;20; 
+Bullseye IV (L);Sight;22; 
+Bullseye V (L);Sight;25;4999.00%
+Bullseye VI (L);Sight;27; 
+Bullseye VII (L);Sight;30; 
+Bullseye VIII (L);Sight;32; 
+Bull Tac10 (L);BLP Amp;8.5;117.65%
+Bull Tac20 (L);BLP Amp;19;112.01%
+Bull Tac25 (L);BLP Amp;24.2;112.83%
+Bull Tac30 (L);BLP Amp;41;114.63%
+Bull Tac40 (L);BLP Amp;44;111.71%
+Bull Tac50 (L);BLP Amp;57;124.56%
+Bull Tac60 (L);BLP Amp;61;132.08%
+Bull Tac70 (L);BLP Amp;106;124.62%
+Bull Tac80 (L);BLP Amp;149;132.10%
+Bull TacElite (L);BLP Amp;235;404.00%
+Bust-A-BLP Amp Mk I (L);BLP Amp; ; 
+Bust-A-BLP Amp Mk II (L);BLP Amp;123; 
+Castar Laser Sight;Sight;220; 
+CDF BLP Power Amp 1 (L);BLP Amp;4.55;554.95%
+CDF BLP Power Amp 2 (L);BLP Amp;7.65;875.85%
+CDF BLP Power Amp 3 (L);BLP Amp;9.1;747.25%
+CDF BLP Power Amp 4 (L);BLP Amp;15.3;1295.32%
+CDF Laser Power Amp 1 (L);Energy Amp;5.5;670.00%
+CDF Laser Power Amp 2 (L);Energy Amp;7.3; 
+CDF Laser Power Amp 3 (L);Energy Amp;11; 
+CDF Laser Power Amp 4 (L);Energy Amp;20; 
+Chahen BLP AMP V1 (L);BLP Amp;5; 
+Chahen BLP AMP V2 (L);BLP Amp;12; 
+Chahen BLP AMP V3 (L);BLP Amp;18; 
+Cinclar Precision Scope;Scope;87; 
+Dacascos Precision Scope;Scope;120; 
+DSEC BLP Amp v1 (L);BLP Amp;19;226.32%
+DSEC BLP Amp v2 (L);BLP Amp;40;170.00%
+DSEC Laser Amp v1 (L);Energy Amp;16; 
+DSEC Laser Amp v2 (L);Energy Amp;34;190.00%
+Dynera Laser Sight;Sight;260; 
+E-Amp 11;Energy Amp;29; 
+E-Amp 12;Energy Amp;39; 
+E-Amp 13;Energy Amp;61; 
+E-Amp 14;Energy Amp;85; 
+E-Amp 15;Energy Amp;129.95; 
+Ecivox Laser Sight;Sight;240; 
+Elkarr Precision Scope;Scope;150; 
+Enkidd Black Widow (L);BLP Amp;70; 
+Enkidd Brown Recluse (L);BLP Amp;80; 
+Enkidd Camel Spider (L);BLP Amp;60;108.87%
+Enkidd Dismalites (L);Sight;40; 
+Enkidd Red-Back (L);BLP Amp;40; 
+Exceptional Mayhem Laser Sight Mk.2 (L);Sight;400;300.00%
+Fi/Ra/Co Angst;BLP Amp;120;110.00 PED
+Fi/Ra/Co Beast;BLP Amp;123;145.00 PED
+Fi/Ra/Co Beast, SGA Edition;BLP Amp;123;1896.00 PED
+Fi/Ra/Co Cause;BLP Amp;170;357.00 PED
+Fi/Ra/Co Cause, Adjusted;BLP Amp;200;509.96 PED
+Fi/Ra/Co Cause, Augmented;BLP Amp;300; 
+Fi/Ra/Co Cause, Improved;BLP Amp;250;892.35 PED
+Fi/Ra/Co Cause, Modified;BLP Amp;300;1150.11 PED
+Fi/Ra/Co Dante;BLP Amp;199;850.00 PED
+Fi/Ra/Co Evil;BLP Amp;211;942.88 PED
+Fi/Ra/Co Evil, Adjusted;BLP Amp;444;2829.50 PED
+Fi/Ra/Co Evil, Augmented;BLP Amp;666; 
+Fi/Ra/Co Evil, Improved;BLP Amp;555;6479.78 PED
+Fi/Ra/Co Evil, Modified;BLP Amp;666;5000.00 PED
+Flexur Precision Scope;Scope;85; 
+Framur Laser Sight;Sight;245; 
+Gargul Laser Sight;Sight;250; 
+Grender Precision Scope;Scope;95; 
+Hanzor Precision Scope;Scope;111; 
+Hawk 1k (L);Scope;40; 
+Hawk 2k (L);Scope;50; 
+Hawk 3k (L);Scope;60; 
+Headshot 1;Scope;25;8.00 PED
+Headshot 2;Scope;35; 
+Headshot 3;Scope;45; 
+Headshot 4;Scope;55; 
+Headshot I (L);Scope;10;15000.00%
+Headshot II (L);Scope;15;1400.00%
+Headshot III (L);Scope;20; 
+Headshot IV (L);Scope;25;14700.00%
+Hotfoot 5 (L);Energy Amp;20;130.00%
+Hotfoot 10 (L);Energy Amp;40; 
+Hotfoot 15 (L);Energy Amp;70; 
+Hotfoot 20 (L);Energy Amp;100;129.00%
+Hotfoot 25 (L);Energy Amp;130;155.00%
+Hotfoot 30 (L);Energy Amp;160;123.75%
+Hotfoot 35 (L);Energy Amp;205;123.00%
+Hotfoot 40 (L);Energy Amp;260;122.70%
+Hotfoot 45 (L);Energy Amp;325; 
+Hotfoot 50 (L);Energy Amp;395; 
+Hunnir Laser Sight;Sight;251.75;35.00 PED
+I.C.U Laser Sight Mk I;Sight;120; 
+Ignaritz Laser Sight;Sight;259; 
+Ikamar Precision Scope;Scope;142; 
+Jakth Laser Sight;Sight;262; 
+Jzar Precision Scope;Scope;187;40.00 PED
+Karona's Extender P20 (L);Absorber;1; 
+Longreach 1;Scope;65; 
+Longreach 2;Scope;75;40.00 PED
+Longreach 3;Scope;85; 
+Longreach 4;Scope;95;65.00 PED
+Longreach I (L);Scope;15;0.00%
+Longreach II (L);Scope;20;110.00%
+Longreach III (L);Scope;25;114.50%
+Longreach IV (L);Scope;30; 
+Loughlin HyperEdge M-Amp 1 (L);Melee Amp;18; 
+Loughlin HyperEdge M-Amp 2 (L);Melee Amp;36; 
+Loughlin Master M-Amp 1 (L);Melee Amp;25; 
+Loughlin Master M-Amp 2 (L);Melee Amp;50; 
+Loughlin Master M-Amp 4 (L);Melee Amp;100; 
+Loughlin NanoRep M-Amp 1 (L);Melee Amp;50; 
+Loughlin NanoRep M-Amp 2 (L);Melee Amp;100; 
+Low Rider BLP Amp Mk I (L);BLP Amp;46.8;126.00%
+Low Rider BLP Amp Mk II (L);BLP Amp;176;127.27%
+Lucky Laser Sight Mk I;Sight;110; 
+Lucky Laser Sight Mk II;Sight;160; 
+Marshall Laser Amp Mk I (L);Energy Amp;26.5; 
+Marshall Laser Amp Mk II (L);Energy Amp;44; 
+Mayhem B-Amplifier 110P (L);BLP Amp;100; 
+Mayhem B-Amplifier Alpha (L);BLP Amp;10;140.00%
+Mayhem B-Amplifier Beta (L);BLP Amp;10;500.00%
+Mayhem B-Amplifier Delta (L);BLP Amp;10;560.00%
+Mayhem B-Amplifier Gamma (L);BLP Amp;10;525.00%
+Mayhem Extender P20;Absorber;40; 
+Mayhem Extender P25;Absorber;60; 
+Mayhem Extender P30 (L);Absorber;100; 
+Mayhem Kinetic Amplifier 1;MF Amp;60; 
+Mayhem Kinetic Amplifier 2;MF Amp;70; 
+Mayhem Kinetic Amplifier 3;MF Amp;80; 
+Mayhem Kinetic Amplifier 4;MF Amp;90; 
+Mayhem Kinetic Amplifier 5;MF Amp;100; 
+Mayhem L-Amplifier Alpha (L);Energy Amp;10;490.00%
+Mayhem L-Amplifier Beta (L);Energy Amp;10;500.00%
+Mayhem L-Amplifier Delta (L);Energy Amp;10;1100.00%
+Mayhem L-Amplifier Gamma (L);Energy Amp;10;550.00%
+Mayhem Laser Sight Mk.1;Sight;200; 
+Mayhem MF-Amplifier Alpha (L);MF Amp;10;600.00%
+Mayhem MF-Amplifier Beta (L);MF Amp;10;1100.00%
+Mayhem MF-Amplifier Delta (L);MF Amp;10;1100.00%
+Mayhem MF-Amplifier Gamma (L);MF Amp;10;700.00%
+Mayhem M-Matrix Alpha (L);Melee Amp;10; 
+Mayhem M-Matrix Beta (L);Melee Amp;10;0.00%
+Mayhem M-Matrix Delta (L);Melee Amp;10;0.00%
+Mayhem M-Matrix Gamma (L);Melee Amp;10;0.00%
+Mayhem Precision Scope Mk.1;Scope;200; 
+Mayhem Trauma Amplifier 1;Melee Amp;600; 
+Mayhem Trauma Amplifier 2;Melee Amp;700; 
+Mayhem Trauma Amplifier 3;Melee Amp;800; 
+Mayhem Trauma Amplifier 4;Melee Amp;900; 
+Mayhem Trauma Amplifier 5;Melee Amp;1000; 
+Mayhem Trauma Amplifier 6;Melee Amp;1100; 
+Mayhem Trauma Amplifier 7;Melee Amp;1200; 
+Mayhem Trauma Amplifier E-137 (L);Melee Amp;3000; 
+MC-Matrix Mk. 3, TWEN Edition;Melee Amp;200; 
+Melee Bimodal Amplifier 1 (L);Melee Amp; ; 
+Melee Bimodal Amplifier 2 (L);Melee Amp;50; 
+Melee Bimodal Amplifier 3 (L);Melee Amp;75; 
+Melee Durability Amplifier 1 (L);Melee Amp; ; 
+Melee Durability Amplifier 2 (L);Melee Amp;100; 
+Melee Durability Amplifier 3 (L);Melee Amp;150; 
+Melee Durability Amplifier 92 (L);Melee Amp;500; 
+Melee Trauma Amplifier 1;Melee Amp;36;260.00 PED
+Melee Trauma Amplifier 1 (L);Melee Amp;18; 
+Melee Trauma Amplifier 2;Melee Amp;72; 
+Melee Trauma Amplifier 2 (L);Melee Amp;36; 
+Melee Trauma Amplifier 2, Adjusted;Melee Amp; ; 
+Melee Trauma Amplifier 2, FEN Edition;Melee Amp;108; 
+Melee Trauma Amplifier 3;Melee Amp;144; 
+Melee Trauma Amplifier 3 (L);Melee Amp;72; 
+Melee Trauma Amplifier 4;Melee Amp;180;90.00 PED
+Melee Trauma Amplifier 5;Melee Amp;216;10000.00 PED
+Melee Trauma Amplifier 6;Melee Amp;252; 
+Melee Trauma Amplifier 6, Improved;Melee Amp;333; 
+Melee Trauma Amplifier 7;Melee Amp;288; 
+Melee Trauma Amplifier 7, TWEN Edition;Melee Amp;300; 
+Melee Trauma Amplifier 8;Melee Amp;324; 
+Melee Trauma Amplifier 8, Modified;Melee Amp;444; 
+Melee Trauma Amplifier 9;Melee Amp; ; 
+Melee Trauma Amplifier 9, Twen Edition;Melee Amp;360; 
+Melee Trauma Amplifier 10;Melee Amp;396; 
+Melee Trauma Amplifier 10, FEN Edition;Melee Amp;432; 
+Mestawy Melee AMP V1 (L);Melee Amp;25; 
+M-Matrix, TWEN Edition;Melee Amp;200; 
+Muzwed Energy AMP V1 (L);Energy Amp;8; 
+Muzwed Energy AMP V2 (L);Energy Amp;15; 
+Muzwed Energy AMP V3 (L);Energy Amp;21; 
+NeoPsion Kinetic Amplifier 1;MF Amp;5; 
+NeoPsion Kinetic Amplifier 1 (L);MF Amp;5;120.00%
+NeoPsion Kinetic Amplifier 2;MF Amp;10;1290.00 PED
+NeoPsion Kinetic Amplifier 2 (L);MF Amp;10;148.00%
+NeoPsion Kinetic Amplifier 3;MF Amp;20;330.00 PED
+NeoPsion Kinetic Amplifier 3 (L);MF Amp;20;140.00%
+NeoPsion Kinetic Amplifier 4;MF Amp;30;1021.00 PED
+NeoPsion Kinetic Amplifier 4 (L);MF Amp;30;140.00%
+NeoPsion Kinetic Amplifier 5;MF Amp;45; 
+NeoPsion Kinetic Amplifier 5 (L);MF Amp;45;140.00%
+NeoPsion Kinetic Amplifier 6;MF Amp;65; 
+NeoPsion Kinetic Amplifier 6 (L);MF Amp;65;139.00%
+NeoPsion Kinetic Amplifier 7;MF Amp;85;6199.17 PED
+NeoPsion Kinetic Amplifier 7 (L);MF Amp;85;140.00%
+NeoPsion Kinetic Amplifier 7, FEN Edition;MF Amp;94; 
+NeoPsion Kinetic Amplifier Mk.1, TWEN Edition;MF Amp;100; 
+NeoPsion Kinetic Amplifier Mk.2, TWEN Edition;MF Amp;120; 
+NeoPsion Kinetic Amplifier Mk.3, TWEN Edition;MF Amp;140; 
+Omegaton A101;Energy Amp;18;278.00 PED
+Omegaton A102;Energy Amp;25;156.94 PED
+Omegaton A103;Energy Amp;30;125.00 PED
+Omegaton A104;Energy Amp;40;220.00 PED
+Omegaton A104, Ancient;Energy Amp;40;6000.00 PED
+Omegaton A104, SGA Edition;Energy Amp;40; 
+Omegaton A105;Energy Amp;45;820.00 PED
+Omegaton A105, Adjusted;Energy Amp;92;990.85 PED
+Omegaton A105, Hypercharged;Energy Amp;184;2400.00 PED
+Omegaton A105, Improved;Energy Amp;184;1499.03 PED
+Omegaton A105, Modified;Energy Amp;184; 
+Omegaton A105, Overcharged;Energy Amp;92; 
+Omegaton A105, Supercharged;Energy Amp;184; 
+Omegaton A106;Energy Amp;60;2666.00 PED
+Omegaton A201;Energy Amp;25;225.00 PED
+Omegaton A202;Energy Amp;29;18500.00 PED
+Omegaton A203;Energy Amp;49;1000.00 PED
+Omegaton A204;Energy Amp;70;8500.00 PED
+Omegaton A204, Adjusted;Energy Amp;141; 
+Omegaton A204, Hypercharged;Energy Amp;343;24000.00 PED
+Omegaton A204, Improved;Energy Amp;242; 
+Omegaton A204, Modified;Energy Amp;242; 
+Omegaton A204, Overcharged;Energy Amp;171; 
+Omegaton A204, SGA Edition;Energy Amp;70;5266.00 PED
+Omegaton A204, Supercharged;Energy Amp;343; 
+Omegaton Amplifier, Modified;Energy Amp;10000; 
+Omegaton B101 (L);Energy Amp;0.08; 
+Omegaton Laser Sight Mk. 1;Sight;251.75;50000.00 PED
+Omegaton Laser Sight Mk. 2;Sight;251.75; 
+Omegaton Ranger Scope Mk. 1;Scope;111;50000.00 PED
+Omegaton Ranger Scope Mk. 2;Scope;111; 
+Prototype Mounted Flashlight Smuggler;Sight; ; 
+Rage 5 (L);BLP Amp;17;133.50%
+Rage 10 (L);BLP Amp;37;124.32%
+Rage 15 (L);BLP Amp;65; 
+Rage 20;BLP Amp;94; 
+Rage 20 (L);BLP Amp;94;114.36%
+Rage 25;BLP Amp; ; 
+Rage 25 (L);BLP Amp;117;135.00%
+Rage 30 (L);BLP Amp;143;143.00%
+Rage 35;BLP Amp; ; 
+Rage 35 (L);BLP Amp;170;122.05%
+Rage 40 (L);BLP Amp;210;127.14%
+Rage 45 (L);BLP Amp;290;121.94%
+Rage 50 (L);BLP Amp;360;121.25%
+RapMan (L);BLP Amp;81;124.31%
+Rapper (L);BLP Amp;38;112.00%
+Rapper Snapper (L);BLP Amp;46.8;107.00%
+RapSTAR (L);BLP Amp;176;308.00%
+RDI Binary Amplifier (L);BLP Amp;2;12224.30%
+RDI Energy Amplifier Alpha (L);Energy Amp;1;44000.00%
+RDI Energy Amplifier Beta (L);Energy Amp;2;7000.00%
+RDI Energy Amplifier Gamma;Energy Amp;20; 
+RDI Energy Amplifier Gamma (L);Energy Amp;20;0.00%
+Roadie BLP Amp Mk I (L);BLP Amp;8.5;127.73%
+Roadie BLP Amp Mk II (L);BLP Amp;19; 
+Road-Monkey Laser Amp Mk I (L);Energy Amp;9.2; 
+Road-Monkey Laser Amp Mk IV (L);Energy Amp;39; 
+Rookie Laser Amp (L);Energy Amp;0.05; 
+S & B Mounted Light P1 (L);Sight;15; 
+S & B Mounted Light P2 (L);Sight;17; 
+S & B Mounted Light R1 (L);Sight;27; 
+S & B Mounted Light R2 (L);Sight;20; 
+S & B Mounted Light R3 (L);Sight;22; 
+S & B Mounted Light R4 (L);Sight;25; 
+Salafa Laser Sight MK 1 (L);Sight;15;723.00%
+Salafa Laser Sight MK 2 (L);Sight;42;771.00%
+Salafa Laser Sight MK 3 (L);Sight;85;870.00%
+Seizzt Laser Sight 2000L;Sight;15;27.00 PED
+Seizzt Laser Sight 2000L+;Sight;30; 
+Seizzt Ranger Scope 1800RS;Scope;30;12.00 PED
+Seizzt Ranger Scope 1850RS;Scope;35; 
+Seizzt Ranger Scope 1900RS;Scope;45;49.46 PED
+Seizzt Ranger Scope 1950RS;Scope;50;33.94 PED
+Seizzt Ranger Scope 2500RS;Scope;79; 
+Seizzt Ranger Scope 3500RS;Scope;110;197.50 PED
+Seizzt Ranger Scope 4000RS;Scope;140; 
+Shack-A-Lacka Laser Amp Mk I (L);Energy Amp;79;125.32%
+Shack-A-Lacka Laser Amp Mk II (L);Energy Amp;37;121.62%
+Shear Pro600 (L);Energy Amp;105; 
+Shear Pro700 (L);Energy Amp;149;510.00%
+Shear Pro900 (L);Energy Amp;242; 
+Shear ProM (L);Energy Amp;267; 
+Shear ProMC (L);Energy Amp;301; 
+Shear XR40 (L);Energy Amp;9.2; 
+Shear XR50 (L);Energy Amp;21; 
+Shear XR55 (L);Energy Amp;29.5;118.41%
+Shear XR60 (L);Energy Amp;39; 
+Shear XR70 (L);Energy Amp;43;111.00%
+Shear XR80 (L);Energy Amp;56.5; 
+Shear XR90 (L);Energy Amp;61.5; 
+Sweet Scope Mk I;Scope;34; 
+Sweet Scope Mk II;Scope;58; 
+Sweet Scope Mk III;Scope;87; 
+Teenie Weenie Laser Amp Mk I (L);Energy Amp;18; 
+Teenie Weenie Laser Amp Mk II (L);Energy Amp;25;120.00%
+Terrus Laser Sight SE600;Sight;100;74.05 PED
+Terrus Laser Sight SE700;Sight;130; 
+Terrus Laser Sight SE800;Sight;160;133.86 PED
+Terrus Laser Sight SE900;Sight;170; 
+T-Rap (L);BLP Amp;16.5;112.88%
+Xent Tech Light Amplification Crenshaw (L);Energy Amp;80; 
+Xent Tech Light Amplification Sunset (L);Energy Amp;60; 
+Xent Tech Light Amplification Vine (L);Energy Amp;40; 
+Xent Tech Light Amplification Wilshire (L);Energy Amp;70; 
+Zorra's Blessed Laser Amp (L);Energy Amp;35; 
+ZX Eagle Eye;Scope;0.3; 
+ZX R-Dod;Sight;0.3; 
+ZX Sinkadus;Energy Amp;0.5; 

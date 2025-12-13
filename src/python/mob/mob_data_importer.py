@@ -30,11 +30,11 @@ def create_mob_insert_clause(columns):
 
 def create_maturity_insert_clause(columns):
     sql = f"""
-                INSERT INTO public.maturity (id, {', '.join(columns)})
-                    VALUES (%s, %s, %s, %s, %s, %s, %s)
-                    ON CONFLICT (id)
-                    DO UPDATE SET
-                """
+            INSERT INTO public.maturity (id, {', '.join(columns)})
+                VALUES (%s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT (id)
+                DO UPDATE SET
+            """
     for i, column in enumerate(columns):
         sql = sql + f"{column} = EXCLUDED.{column}"
         if len(columns) - 1 != i:
@@ -62,7 +62,8 @@ def create_mob_insert_data(mob_id, json_object):
 
 def create_maturity_insert_data(mob_id, maturity):
     return (
-        maturity["Id"], maturity["Name"],
+        maturity["Id"],
+        maturity["Name"],
         maturity["Properties"]["Health"],
         maturity["Properties"]["AttacksPerMinute"],
         maturity["Properties"]["RegenerationInterval"],
@@ -75,11 +76,12 @@ def main():
     connection = psycopg2.connect(database="entropiaDB", user='entropia', password=os.environ['DB_PASSWORD'],
                                   host="localhost", port=5432, )
     cursor = connection.cursor()
-    for mob_id in range(1000):
+    for mob_id in range(1, 1000):
         print(f'{mob_id}')
         try:
-            file = open(f'../../../data/mob/mob_{mob_id}.json', 'r')
+            file = open(f'../../data/mob/mob_{mob_id}.json', 'r')
         except FileNotFoundError:
+            print(f'File not found: data/mob/mob_{mob_id}.json')
             continue
         json_object = json.load(file)
         print(json_object)
@@ -89,8 +91,7 @@ def main():
         for maturity in json_object['Maturities']:
             insert_maturity(cursor, maturity, mob_id)
 
-        for item in json_object['Loots']:
-            insert_item(cursor, item, mob_id)
+        insert_loots(cursor, json_object['Loots'], mob_id)
 
         file.close()
     connection.commit()
@@ -113,8 +114,40 @@ def insert_mob(cursor, json_object, mob_id: int):
     cursor.execute(sql_context, data)
 
 
-def insert_item(cursor, item, mob_id):
-    pass
+def insert_loots(cursor, loots, mob_id):
+    for loot in loots:
+        if loot["IsDropping"]:
+            mob_maturity = loot["Maturity"]["Name"]
+            print(mob_maturity)
+
+            item_name = (
+                loot["Item"]["Name"],
+            )
+            print(item_name)
+            sql = f"""SELECT id FROM item WHERE name LIKE %s"""
+            cursor.execute(sql, item_name)
+            item_id = cursor.fetchall()
+            if len(item_id) == 0:
+                print(f"WARN - Missing item: {item_name}")
+                continue
+            if len(item_id) > 1:
+                print(f"WARN - Multiple items found for: {item_name}")
+                continue
+
+            frequency = loot["Frequency"]
+
+            sql = f"""INSERT INTO mob_item VALUES (%s, %s, %s)
+                        ON CONFLICT (mob_id, item_id)
+                        DO UPDATE SET
+                            frequency = EXCLUDED.frequency
+                    """
+
+            mob_and_item_data = (
+                mob_id,
+                item_id[0],
+                frequency
+            )
+            cursor.execute(sql, mob_and_item_data)
 
 
 if __name__ == "__main__":

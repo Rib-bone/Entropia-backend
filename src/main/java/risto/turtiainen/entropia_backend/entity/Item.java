@@ -1,5 +1,6 @@
 package risto.turtiainen.entropia_backend.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -20,4 +21,7 @@ public class Item {
     private Float ttValue;
     private String markup;
 
+    @ManyToMany(mappedBy = "items")
+    @JsonIgnore
+    private List<Mob> Mobs;
 }

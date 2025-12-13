@@ -22,4 +22,12 @@ public class Mob {
     @OneToMany(mappedBy="mob")
     private List<Maturity> maturities;
 
+    @ManyToMany(cascade = { CascadeType.ALL })
+    @JoinTable(
+            name = "mob_item",
+            joinColumns = { @JoinColumn(name = "mob_id") },
+            inverseJoinColumns = { @JoinColumn(name = "item_id") }
+    )
+    private List<Item> items;
+
 }

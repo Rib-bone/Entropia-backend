@@ -1,8 +1,7 @@
-from dataclasses import dataclass
-
 import psycopg2
 import csv
 import os
+
 
 class Item:
     id: int
@@ -11,12 +10,14 @@ class Item:
     tt_value: str
     mu: str
 
+
 item_insert_columns = [
     "name",
     "type",
     "max_tt",
     "markup"
 ]
+
 
 def create_item_insert_clause(columns):
     sql = f"""
@@ -49,32 +50,47 @@ def create_item_insert_data(item):
 
 
 def main():
-
     connection = psycopg2.connect(database="entropiaDB", user='entropia', password=os.environ['DB_PASSWORD'],
                                   host="localhost", port=5432, )
     cursor = connection.cursor()
-    item_index = 0
+    item_index = 1
 
-    for x in range(7):
-        if x == 0:
-            continue
-        read_material_files(cursor, item_index, x)
+    for x in range(1, 5):
+        item_index = read_files(cursor, item_index, f'../../../data/item/ArmorItem.{x}.csv')
+    item_index = read_files(cursor, item_index, f'../../../data/item/Attachment.1.csv')
+    for x in range(1,3):
+        item_index = read_files(cursor, item_index, f'../../../data/item/Clothes.{x}.csv')
+    item_index = read_files(cursor, item_index, f'../../../data/item/FirstAidPack.1.csv')
+    item_index = read_files(cursor, item_index, f'../../../data/item/Implant.1.csv')
+    for x in range(1, 7):
+        item_index = read_files(cursor, item_index, f'../../../data/item/Material.{x}.csv')
+    item_index = read_files(cursor, item_index, f'../../../data/item/Misc.1.csv')
+    item_index = read_files(cursor, item_index, f'../../../data/item/MiscTool.1.csv')
+    item_index = read_files(cursor, item_index, f'../../../data/item/Plating.1.csv')
+    item_index = read_files(cursor, item_index, f'../../../data/item/Synchronization.1.csv')
+    item_index = read_files(cursor, item_index, f'../../../data/item/Teleportation.1.csv')
+    for x in range(1, 7):
+        item_index = read_files(cursor, item_index, f'../../../data/item/Weapon.{x}.csv')
+
+    print(f"Imported {item_index - 1} items")
     connection.commit()
     cursor.close()
     connection.close()
 
 
-def read_material_files(cursor, item_index: int, x: int):
-    file = open(f'../../../data/item/Material.{x}.csv', 'r')
-    read_files_items(cursor, file, item_index)
+def read_files(cursor, item_index: int, file_path):
+    file = open(file_path, 'r')
+    item_index = read_files_items(cursor, file, item_index)
     file.close()
+    return item_index
 
 
-def read_files_items(cursor, file: TextIOWrapper[_WrappedBuffer], item_index: int | Any):
+def read_files_items(cursor, file, item_index: int):
     reader = csv.reader(file, delimiter=';', quotechar='|')
     row_index = 0
     for row in reader:
         if row_index == 0:
+            #Skipping the Header row of csv
             row_index = row_index + 1
             continue
         cell_index = 0
@@ -87,6 +103,7 @@ def read_files_items(cursor, file: TextIOWrapper[_WrappedBuffer], item_index: in
         item_index = item_index + 1
         row_index = row_index + 1
         print("---------------------------------------")
+    return item_index
 
 
 def map_cell_to_item(cell: str, cell_index: int, item: Item):
@@ -104,7 +121,7 @@ def map_cell_to_item(cell: str, cell_index: int, item: Item):
             item.mu = cell.strip()
             print(f"Markup: {cell.strip()}")
         case _:
-            print(cell.strip())
+            print(f"WARN - unmapped cell: {cell.strip()}")
 
 
 def insert_item(cursor, item):

@@ -2,6 +2,7 @@
 CREATE TYPE damage_type AS ENUM ('CUT', 'STAB', 'ELECTRIC');
 
 CREATE TABLE maturity (
+
     id INT PRIMARY KEY NOT NULL,
     name VARCHAR NOT NULL,
     health INT,
