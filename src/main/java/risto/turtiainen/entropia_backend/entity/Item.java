@@ -21,7 +21,7 @@ public class Item {
     private Float ttValue;
     private String markup;
 
-    @ManyToMany(mappedBy = "items")
+    @OneToMany(mappedBy = "item")
     @JsonIgnore
-    private List<Mob> Mobs;
+    private List<MobItem> mobs;
 }
