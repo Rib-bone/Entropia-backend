@@ -24,4 +24,5 @@ public class Item {
     @OneToMany(mappedBy = "item")
     @JsonIgnore
     private List<MobItem> mobs;
+
 }

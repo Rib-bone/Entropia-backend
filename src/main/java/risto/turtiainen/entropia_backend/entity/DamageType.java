@@ -15,4 +15,5 @@ public enum DamageType {
     public String toString() {
         return text;
     }
+
 }
