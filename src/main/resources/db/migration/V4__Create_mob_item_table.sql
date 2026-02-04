@@ -1,5 +1,4 @@
 
-
 CREATE TABLE mob_item (
 
     mob_id INT references mob(id),

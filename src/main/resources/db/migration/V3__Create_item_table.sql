@@ -1,5 +1,4 @@
 
-
 CREATE TABLE item (
 
     id INT PRIMARY KEY NOT NULL,

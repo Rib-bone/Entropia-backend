@@ -16,6 +16,19 @@ maturity_insert_columns = [
     "mob_id"
 ]
 
+damage_type_insert_columns = [
+    "stab",
+    "cut",
+    "impact",
+    "penetration",
+    "shrapnel",
+    "burn",
+    "cold",
+    "acid",
+    "electric",
+    "maturity_id",
+    "mob_id"
+]
 
 def create_mob_insert_clause(columns):
     return f"""
@@ -32,6 +45,21 @@ def create_maturity_insert_clause(columns):
     sql = f"""
             INSERT INTO public.maturity (id, {', '.join(columns)})
                 VALUES (%s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT (id)
+                DO UPDATE SET
+            """
+    for i, column in enumerate(columns):
+        sql = sql + f"{column} = EXCLUDED.{column}"
+        if len(columns) - 1 != i:
+            sql = sql + ","
+        if len(columns) - 1 == i:
+            sql = sql + ";"
+    return sql
+
+def create_damage_type_insert_clause(columns):
+    sql = f"""
+            INSERT INTO public.damage_type (id, {', '.join(columns)})
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
                 ON CONFLICT (id)
                 DO UPDATE SET
             """
@@ -62,24 +90,44 @@ def create_mob_insert_data(mob_id, json_object):
 
 def create_maturity_insert_data(mob_id, maturity):
     return (
-        maturity["Id"],
-        maturity["Name"],
-        maturity["Properties"]["Health"],
-        maturity["Properties"]["AttacksPerMinute"],
-        maturity["Properties"]["RegenerationInterval"],
-        maturity["Properties"]["RegenerationAmount"],
+        maturity['Id'],
+        maturity['Name'],
+        maturity['Properties']['Health'],
+        maturity['Properties']['AttacksPerMinute'],
+        maturity['Properties']['RegenerationInterval'],
+        maturity['Properties']['RegenerationAmount'],
+        mob_id
+    )
+
+def create_damage_type_insert_data(id, mob_id, attack, maturity_id):
+    return (
+        id,
+        attack['Damage']['Stab'],
+        attack['Damage']['Cut'],
+        attack['Damage']['Impact'],
+        attack['Damage']['Penetration'],
+        attack['Damage']['Shrapnel'],
+        attack['Damage']['Burn'],
+        attack['Damage']['Cold'],
+        attack['Damage']['Acid'],
+        attack['Damage']['Electric'],
+        maturity_id,
         mob_id
     )
 
 
 def main():
-    connection = psycopg2.connect(database="entropiaDB", user='entropia', password=os.environ['DB_PASSWORD'],
-                                  host="localhost", port=5432, )
+    connection = psycopg2.connect(database="entropiaDB",
+                                  user='entropia',
+                                  password=os.environ['DB_PASSWORD'],
+                                  host="localhost",
+                                  port=5432)
     cursor = connection.cursor()
+    damage_type_id = 0
     for mob_id in range(1, 1000):
         print(f'{mob_id}')
         try:
-            file = open(f'../../data/mob/mob_{mob_id}.json', 'r')
+            file = open(f'../../../data/mob/mob_{mob_id}.json', 'r')
         except FileNotFoundError:
             print(f'File not found: data/mob/mob_{mob_id}.json')
             continue
@@ -90,6 +138,10 @@ def main():
 
         for maturity in json_object['Maturities']:
             insert_maturity(cursor, maturity, mob_id)
+            if maturity['Attacks']:
+                for attack in maturity['Attacks']:
+                    damage_type_id = damage_type_id + 1
+                    insert_damage_type(cursor, damage_type_id, attack, mob_id, maturity["Id"])
 
         insert_loots(cursor, json_object['Loots'], mob_id)
 
@@ -97,6 +149,14 @@ def main():
     connection.commit()
     cursor.close()
     connection.close()
+
+
+def insert_damage_type(cursor, id, attack, mob_id: int, maturity_id: int):
+    sql_context = create_damage_type_insert_clause(damage_type_insert_columns)
+    data = create_damage_type_insert_data(id, mob_id, attack, maturity_id)
+    print(sql_context)
+    print(data)
+    cursor.execute(sql_context, data)
 
 
 def insert_maturity(cursor, maturity, mob_id: int):
