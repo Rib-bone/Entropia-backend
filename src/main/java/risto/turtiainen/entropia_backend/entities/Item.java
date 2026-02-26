@@ -1,4 +1,4 @@
-package risto.turtiainen.entropia_backend.entity;
+package risto.turtiainen.entropia_backend.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
