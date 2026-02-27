@@ -1,0 +1,10 @@
+services:
+  test-db:
+    image: postgres:18.1-alpine3.23
+    restart: always
+    ports:
+      - "6432:5432"
+    environment:
+      POSTGRES_USER: entropia
+      POSTGRES_DB: entropiaDB-test
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
