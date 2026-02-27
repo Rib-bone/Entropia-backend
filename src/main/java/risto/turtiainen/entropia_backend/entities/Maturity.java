@@ -1,10 +1,8 @@
-package risto.turtiainen.entropia_backend.entity;
+package risto.turtiainen.entropia_backend.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.Data;
-
-import java.util.Map;
 
 @Data
 @Entity

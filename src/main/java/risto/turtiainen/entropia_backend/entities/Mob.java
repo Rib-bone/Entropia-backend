@@ -1,8 +1,9 @@
-package risto.turtiainen.entropia_backend.entity;
+package risto.turtiainen.entropia_backend.entities;
 
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import risto.turtiainen.entropia_backend.enums.MobType;
 
 import java.util.List;
 

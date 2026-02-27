@@ -1,7 +1,5 @@
-package risto.turtiainen.entropia_backend.entity;
+package risto.turtiainen.entropia_backend.enums;
 
-
-import java.security.PublicKey;
 
 public enum MobType {
     ROBOT("Robot"),

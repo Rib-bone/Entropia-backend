@@ -1,8 +1,14 @@
-package risto.turtiainen.entropia_backend.entity;
+package risto.turtiainen.entropia_backend.enums;
 
 public enum DamageType {
-    CUT("Cut"),
     STAB("Stab"),
+    CUT("Cut"),
+    IMPACT("Impact"),
+    PENETRATION("Penetration"),
+    SHARPNEL("Shrapnel"),
+    BURN("Burn"),
+    COLD("Cold"),
+    ACID("acid"),
     ELECTRIC("Electric");
 
     private final String text;

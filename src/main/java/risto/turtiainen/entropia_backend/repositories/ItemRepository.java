@@ -1,7 +1,7 @@
-package risto.turtiainen.entropia_backend.repository;
+package risto.turtiainen.entropia_backend.repositories;
 
 import org.springframework.data.repository.CrudRepository;
-import risto.turtiainen.entropia_backend.entity.Item;
+import risto.turtiainen.entropia_backend.entities.Item;
 
 
 public interface ItemRepository extends CrudRepository<Item, Long> {
