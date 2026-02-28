@@ -1,14 +1,12 @@
-package risto.turtiainen.entropia_backend.controllers;
+package risto.turtiainen.entropia_backend.controllers.v1;
 
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import risto.turtiainen.entropia_backend.entities.Item;
 import risto.turtiainen.entropia_backend.repositories.ItemRepository;
 
 @RestController
-@RequestMapping("/v1")
-public class ItemController {
+public class ItemController implements v1Controller {
 
     private final ItemRepository repository;
 

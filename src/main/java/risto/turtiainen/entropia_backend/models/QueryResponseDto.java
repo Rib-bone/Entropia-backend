@@ -1,6 +1,8 @@
 package risto.turtiainen.entropia_backend.models;
 
-import risto.turtiainen.entropia_backend.entities.Mob;
+import risto.turtiainen.entropia_backend.entities.Maturity;
 
-public record QueryResponseDto(Mob mob) {
+import java.util.List;
+
+public record QueryResponseDto(List<Maturity> maturities) {
 }

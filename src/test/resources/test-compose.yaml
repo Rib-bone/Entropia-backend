@@ -6,5 +6,5 @@ services:
       - "6432:5432"
     environment:
       POSTGRES_USER: entropia
-      POSTGRES_DB: entropiaDB-test
+      POSTGRES_DB: entropiaDB
       POSTGRES_PASSWORD: ${DB_PASSWORD}

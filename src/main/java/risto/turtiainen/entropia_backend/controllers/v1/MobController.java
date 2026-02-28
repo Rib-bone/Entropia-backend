@@ -1,18 +1,16 @@
-package risto.turtiainen.entropia_backend.controllers;
+package risto.turtiainen.entropia_backend.controllers.v1;
 
 import lombok.NonNull;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import risto.turtiainen.entropia_backend.entities.Mob;
 import risto.turtiainen.entropia_backend.repositories.MobRepository;
 import risto.turtiainen.entropia_backend.services.MobService;
 
 @RestController
-@RequestMapping("/v1")
-public class MobController {
+public class MobController implements v1Controller{
 
     private final MobRepository repository;
 

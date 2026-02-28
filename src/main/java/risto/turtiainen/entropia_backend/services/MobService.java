@@ -21,11 +21,6 @@ public class MobService {
     }
 
     public Mob getMob(long id){
-        Optional<Mob> data = repository.findById(id);
-        if (data.isPresent()){
-            return data.get();
-        } else {
-            throw new NotFoundException("Mob with id " + id + " not found");
-        }
+        return repository.findById(id).orElseThrow(() -> new NotFoundException("Mob with id " + id + " not found"));
     }
 }

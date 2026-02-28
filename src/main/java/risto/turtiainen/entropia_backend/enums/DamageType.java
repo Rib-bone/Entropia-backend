@@ -8,7 +8,7 @@ public enum DamageType {
     SHARPNEL("Shrapnel"),
     BURN("Burn"),
     COLD("Cold"),
-    ACID("acid"),
+    ACID("Acid"),
     ELECTRIC("Electric");
 
     private final String text;

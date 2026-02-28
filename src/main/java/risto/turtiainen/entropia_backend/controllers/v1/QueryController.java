@@ -1,15 +1,14 @@
-package risto.turtiainen.entropia_backend.controllers;
+package risto.turtiainen.entropia_backend.controllers.v1;
 
+import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import risto.turtiainen.entropia_backend.models.QueryRequestDto;
 import risto.turtiainen.entropia_backend.models.QueryResponseDto;
 import risto.turtiainen.entropia_backend.services.QueryService;
 
 @RestController
-@RequestMapping("/v1")
-public class QueryController {
+public class QueryController implements v1Controller{
 
     private final QueryService queryService;
 
@@ -18,7 +17,7 @@ public class QueryController {
     }
 
     @GetMapping("/query")
-    QueryResponseDto getMobByUserData(QueryRequestDto requestDto) {
+    QueryResponseDto getMobByUserData(@Valid QueryRequestDto requestDto) {
         return queryService.findHuntableMobsByUserData(requestDto);
     }
 }

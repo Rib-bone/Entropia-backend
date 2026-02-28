@@ -3,6 +3,7 @@ package risto.turtiainen.entropia_backend.entities;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.Data;
+import lombok.ToString;
 
 @Data
 @Entity
@@ -19,6 +20,7 @@ public class Maturity {
 
     @ManyToOne
     @JsonIgnore
+    @ToString.Exclude
     private Mob mob;
 
     //private Map<DamageType, Integer> damage;
