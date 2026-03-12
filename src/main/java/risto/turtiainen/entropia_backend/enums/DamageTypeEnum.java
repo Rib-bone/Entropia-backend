@@ -1,17 +1,22 @@
 package risto.turtiainen.entropia_backend.enums;
 
-
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonValue;
 
-public enum MobType {
-    ROBOT("Robot"),
-    ANIMAL("Animal"),
-    MUTANT("Mutant");
+public enum DamageTypeEnum {
+    STAB("Stab"),
+    CUT("Cut"),
+    IMPACT("Impact"),
+    PENETRATION("Penetration"),
+    SHARPNEL("Shrapnel"),
+    BURN("Burn"),
+    COLD("Cold"),
+    ACID("Acid"),
+    ELECTRIC("Electric");
 
     private final String text;
 
-    MobType(final String text) {
+    DamageTypeEnum(final String text) {
         this.text = text;
     }
 
@@ -21,12 +26,13 @@ public enum MobType {
     }
 
     @JsonCreator
-    public static MobType fromString(String value) {
-        return MobType.valueOf(value.trim().toUpperCase());
+    public static DamageTypeEnum fromString(String value) {
+        return DamageTypeEnum.valueOf(value.trim().toUpperCase());
     }
 
     @JsonValue
     public String toJson() {
         return name();
     }
+
 }

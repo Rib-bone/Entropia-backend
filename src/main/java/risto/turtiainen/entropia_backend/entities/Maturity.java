@@ -5,6 +5,8 @@ import jakarta.persistence.*;
 import lombok.Data;
 import lombok.ToString;
 
+import java.util.List;
+
 @Data
 @Entity
 @Table(name = "maturity")
@@ -23,7 +25,8 @@ public class Maturity {
     @ToString.Exclude
     private Mob mob;
 
-    //private Map<DamageType, Integer> damage;
+    @OneToOne(mappedBy = "maturity")
+    private DamageType damageType;
 
    /* "Attributes": {
         "Strength": 104,

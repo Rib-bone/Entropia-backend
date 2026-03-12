@@ -26,4 +26,7 @@ public class Mob {
     @OneToMany(mappedBy = "mob")
     private List<MobItem> items;
 
+    @OneToMany(mappedBy = "mob")
+    private List<DamageType> damageTypes;
+
 }
