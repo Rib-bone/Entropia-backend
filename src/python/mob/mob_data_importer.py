@@ -15,20 +15,13 @@ maturity_insert_columns = [
     "regeneration_amount",
     "mob_id"
 ]
-
 damage_type_insert_columns = [
-    "stab",
-    "cut",
-    "impact",
-    "penetration",
-    "shrapnel",
-    "burn",
-    "cold",
-    "acid",
-    "electric",
+    "mob_id",
     "maturity_id",
-    "mob_id"
+    "damage_type_id",
+    "damage_amount"
 ]
+
 
 def create_mob_insert_clause(columns):
     return f"""
@@ -56,11 +49,12 @@ def create_maturity_insert_clause(columns):
             sql = sql + ";"
     return sql
 
+
 def create_damage_type_insert_clause(columns):
     sql = f"""
-            INSERT INTO public.damage_type (id, {', '.join(columns)})
-                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
-                ON CONFLICT (id)
+            INSERT INTO public.mob_damage_type ({', '.join(columns)})
+                VALUES (%s, %s, %s, %s)
+                ON CONFLICT (mob_id, maturity_id, damage_type_id)
                 DO UPDATE SET
             """
     for i, column in enumerate(columns):
@@ -99,21 +93,25 @@ def create_maturity_insert_data(mob_id, maturity):
         mob_id
     )
 
-def create_damage_type_insert_data(id, mob_id, attack, maturity_id):
-    return (
-        id,
-        attack['Damage']['Stab'],
-        attack['Damage']['Cut'],
-        attack['Damage']['Impact'],
-        attack['Damage']['Penetration'],
-        attack['Damage']['Shrapnel'],
-        attack['Damage']['Burn'],
-        attack['Damage']['Cold'],
-        attack['Damage']['Acid'],
-        attack['Damage']['Electric'],
-        maturity_id,
-        mob_id
-    )
+
+def insert_damage_types(cursor, mob_id, attack, maturity_id, sql_context):
+    damage_types = ['Stab', 'Cut', 'Impact', 'Penetration', 'Shrapnel', 'Burn', 'Cold', 'Acid', 'Electric']
+    for damage_type in damage_types:
+        if attack['Damage'][damage_type] is not None:
+            damage_type_name = (damage_type.upper(),)
+            sql = f"""SELECT id FROM damage_type WHERE damage_type = %s"""
+            cursor.execute(sql, damage_type_name)
+            damage_type_id = cursor.fetchall()
+            data = (
+                mob_id,
+                maturity_id,
+                damage_type_id[0],
+                attack['Damage'][damage_type]
+            )
+            print(sql_context)
+            print(data)
+            cursor.execute(sql_context, data)
+
 
 
 def main():
@@ -140,8 +138,7 @@ def main():
             insert_maturity(cursor, maturity, mob_id)
             if maturity['Attacks']:
                 for attack in maturity['Attacks']:
-                    damage_type_id = damage_type_id + 1
-                    insert_damage_type(cursor, damage_type_id, attack, mob_id, maturity["Id"])
+                    insert_damage_type(cursor, attack, mob_id, maturity["Id"])
 
         insert_loots(cursor, json_object['Loots'], mob_id)
 
@@ -151,12 +148,9 @@ def main():
     connection.close()
 
 
-def insert_damage_type(cursor, id, attack, mob_id: int, maturity_id: int):
+def insert_damage_type(cursor, attack, mob_id: int, maturity_id: int):
     sql_context = create_damage_type_insert_clause(damage_type_insert_columns)
-    data = create_damage_type_insert_data(id, mob_id, attack, maturity_id)
-    print(sql_context)
-    print(data)
-    cursor.execute(sql_context, data)
+    insert_damage_types(cursor, mob_id, attack, maturity_id, sql_context)
 
 
 def insert_maturity(cursor, maturity, mob_id: int):

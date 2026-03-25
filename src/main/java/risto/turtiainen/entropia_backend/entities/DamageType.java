@@ -3,30 +3,20 @@ package risto.turtiainen.entropia_backend.entities;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.ToString;
+import risto.turtiainen.entropia_backend.enums.DamageTypeEnum;
 
 @Entity
 @Data
+@NoArgsConstructor(force = true)
+@Table(name = "damage_type")
 public class DamageType {
+
     @Id
     private int id;
-    private Integer stab;
-    private Integer cut;
-    private Integer impact;
-    private Integer penetration;
-    private Integer shrapnel;
-    private Integer burn;
-    private Integer cold;
-    private Integer acid;
-    private Integer electric;
 
-    @ManyToOne
-    @JsonIgnore
-    @ToString.Exclude
-    private Mob mob;
+    @Enumerated(EnumType.STRING)
+    private final DamageTypeEnum damageType;
 
-    @OneToOne
-    @JsonIgnore
-    @ToString.Exclude
-    private Maturity maturity;
 }

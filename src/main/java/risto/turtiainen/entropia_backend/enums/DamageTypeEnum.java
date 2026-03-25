@@ -8,7 +8,7 @@ public enum DamageTypeEnum {
     CUT("Cut"),
     IMPACT("Impact"),
     PENETRATION("Penetration"),
-    SHARPNEL("Shrapnel"),
+    SHRAPNEL("Shrapnel"),
     BURN("Burn"),
     COLD("Cold"),
     ACID("Acid"),

@@ -1,5 +1,6 @@
 package risto.turtiainen.entropia_backend.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -23,10 +24,11 @@ public class Mob {
     @OneToMany(mappedBy="mob")
     private List<Maturity> maturities;
 
-    @OneToMany(mappedBy = "mob")
+    @OneToMany(mappedBy = "id.mob")
     private List<MobItem> items;
 
-    @OneToMany(mappedBy = "mob")
-    private List<DamageType> damageTypes;
+    @OneToMany(mappedBy = "id.mob")
+    @JsonIgnore
+    private List<MobDamageType> damageTypes;
 
 }

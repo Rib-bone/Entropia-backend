@@ -25,25 +25,6 @@ public class Maturity {
     @ToString.Exclude
     private Mob mob;
 
-    @OneToOne(mappedBy = "maturity")
-    private DamageType damageType;
-
-   /* "Attributes": {
-        "Strength": 104,
-        "Agility": 226,
-        "Intelligence": 99,
-        "Psyche": 67,
-        "Stamina": 100
-    },
-    "Defense": {
-        "Stab": null,
-        "Cut": null,
-        "Impact": null,
-        "Penetration": null,
-        "Shrapnel": null,
-        "Burn": null,
-        "Cold": null,
-        "Acid": null,
-        "Electric": null
-    }*/
+    @OneToMany(mappedBy = "id.maturity")
+    private List<MobDamageType> damageTypes;
 }
